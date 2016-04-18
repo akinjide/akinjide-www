@@ -2,7 +2,7 @@
   "name": "akinjide-www",
   "homepage": "https://github.com/andela-abankole/akinjide-www",
   "authors": [
-    "andela-abankole <akinjide.bankole@andela.com>"
+    "akinjide-bankole <r@akinjide.me>"
   ],
   "description": "My personal website and blog",
   "keywords": [
@@ -12,7 +12,6 @@
   ],
   "moduleType": [],
   "private": true,
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
