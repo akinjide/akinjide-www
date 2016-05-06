@@ -2,7 +2,7 @@
   "name": "akinjide-www",
   "homepage": "https://github.com/andela-abankole/akinjide-www",
   "authors": [
-    "akinjide-bankole <r@akinjide.me>"
+    "Akinjide Bankole <r@akinjide.me>"
   ],
   "description": "My personal website and blog",
   "keywords": [
@@ -10,14 +10,8 @@
     "website",
     "blog"
   ],
-  "moduleType": [],
   "private": true,
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests",
     "static/static/components"
   ],
   "dependencies": {
