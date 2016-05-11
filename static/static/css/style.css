@@ -275,6 +275,11 @@ footer p a:visited {
   color: #515050;
 } */
 
+.mailchimp-subscribe input[type=email]:focus {
+  -webkit-box-shadow: inset 0 -2px 0 #b10000;
+  box-shadow: inset 0 -2px 0 #b10000;
+}
+
 .mailchimp-subscribe button:active,
 .mailchimp-subscribe button:hover,
 .mailchimp-subscribe button:focus {
