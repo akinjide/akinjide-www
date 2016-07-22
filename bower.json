@@ -4,12 +4,13 @@
   "authors": [
     "Akinjide Bankole <r@akinjide.me>"
   ],
-  "description": "My personal website and blog",
+  "description": "My personal website and blog.",
   "keywords": [
     "personal",
     "website",
     "blog"
   ],
+  "license": "UNLICENSED",
   "private": true,
   "ignore": [
     "static/static/components"
@@ -19,6 +20,6 @@
     "respond": "^1.4.2",
     "jquery": "^2.2.2",
     "bootstrap": "^3.3.6",
-    "bootswatch": "^3.3.6+1"
+    "bootswatch": "^3.3.6"
   }
 }
