@@ -192,11 +192,30 @@ header h2 a:hover {
   text-align: justify;
 }
 
-.article p.readtime {
+.article p.read-time {
   font-size: .8em;
+  font-weight: 700;
   color: #b10000;
   margin: 4em 0 -2.4em 0;
   text-align: right;
+  opacity: 0.05;
+  -webkit-font-smoothing: antialiased;
+  transition-property: all;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  -moz-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  -ms-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  -o-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82)
+}
+
+article p.read-time:hover {
+  opacity: 1;
+}
+
+article p.read-time.active {
+  opacity: 1;
+  display: block;
 }
 
 .article blockquote {
@@ -276,8 +295,8 @@ footer p a:visited {
 } */
 
 .mailchimp-subscribe input[type=email]:focus {
-  -webkit-box-shadow: inset 0 -2px 0 #b10000;
-  box-shadow: inset 0 -2px 0 #b10000;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(177, 0, 0, 0.35);
+  box-shadow: inset 0 -1px 0 rgba(177, 0, 0, 0.35);
 }
 
 .mailchimp-subscribe button:active,
@@ -317,7 +336,8 @@ code {
  * Media Queries styling.
  */
 @media (max-width: 400px) {
-  .article p.readtime {
+  .article p.read-time {
     text-align: center;
+    opacity: 0.5
   }
 }
