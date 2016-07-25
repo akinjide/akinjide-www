@@ -50,7 +50,7 @@ Have a great relationship whether it's with your Boy/Girlfriend, Mum/Dad, Friend
 Colleagues or anybody. 
 
 
-## Do Something You Love, Do it All the Way
+## Do Something You Love, Do It All The Way
 
 It's really easy to half-ass things. Whether it's working on designs, an open source project, 
 finishing your project, helping your user, dancing, whatever.
@@ -80,7 +80,7 @@ There's no point in trying to change people or convince them to act a certain wa
 they'll do it of their own accord. So be understanding.
 
 
-## Read Books -- Read something
+## Read Books -- Read Something
 
 One of the best ways you can improve yourself is to be conscious of your thoughts 
 and actions. While it may sound cheesy, reading personal development books is a 
@@ -92,7 +92,7 @@ Read them through, and think about how you can change yourself to make yourself 
 each of those areas.
 
 
-## Don't Listen to Other People
+## Don't Listen To Other People
 
 Instead of listening to someone's words that might be wrong at times, observe their actions. Everyone loves to talk 
 about things, but very few people like to do things.
@@ -148,7 +148,7 @@ relationship.  This will not only free up your time, but will save you from a
 lifetime of stress and unhappiness.
 
 
-## Save to Your Last Dime
+## Save To Your Last Dime
 
 Consciously saving before spending is the best way you can improve yourself; this 
 shapes your spending habits. 
