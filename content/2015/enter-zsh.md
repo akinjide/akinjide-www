@@ -91,7 +91,7 @@ The changes I made are simple and for my own preferences. Here's what my changes
 -  Load custom configuration files. That means all aliases, environment variables and other random stuffs.
 -  Set vim as my default editor. `I love vim`, but you can switch to `emacs` or others.
 -  Set default theme for oh my zsh. You can set random to use different theme anytime you start your terminal.
--  Set plugins you want oh my zsh to load into you terminal.
+-  Set plugins you want oh my zsh to load into your terminal.
 -  rbenv is a Ruby version manager to maintain different Ruby version. Likewise, nvm, a Node version manager to maintain different NodeJS version.
 
 As you can see, I had to make very few changes to oh my zsh in order for it to be useful to me.
@@ -103,8 +103,8 @@ If you'd like to give zsh a try, here are some resources to get you going. zsh h
 -  [Installation][]
 -  [The main zsh website.][Zsh]
 -  [zsh wiki][]
--  `man zsh` has great information and is highly readable
--  [oh my zsh source][oh my zsh], a really great introduction to using Oh My Zsh
+-  `man zsh` has great information and is highly readable.
+-  [oh my zsh source][oh my zsh], a really great introduction to using Oh My Zsh.
 -  [oh my zsh series][], a series of blog posts explaining zsh and oh my zsh in depth. A great read.
 -  [oh my zsh theme][], a simple oh my zsh theme.
 

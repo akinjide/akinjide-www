@@ -87,7 +87,7 @@ header h2 a:hover {
 }
 
 .index .intro img {
-  max-width: 10em;
+  max-width: 8em; /*10em*/
 }
 
 .index .jumbotron {
