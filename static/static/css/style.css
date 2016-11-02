@@ -16,7 +16,7 @@ nav ul {
 
 nav li {
   display: inline;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 700;
 }
 
@@ -87,7 +87,7 @@ header h2 a:hover {
 }
 
 .index .intro img {
-  max-width: 8em; /*10em*/
+  max-width: 6em; /*10em*/
 }
 
 .index .jumbotron {
