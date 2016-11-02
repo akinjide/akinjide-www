@@ -12,6 +12,6 @@ develop:
 	bower install
 	hugo server
 	
-deploy:
+deploy: build
 	aws s3 sync public/ s3://www.akinjide.me --acl public-read --delete
 
