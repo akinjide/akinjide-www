@@ -22,7 +22,7 @@ params:
     - title: "Talks"
       url: "https://speakerdeck.com/akinjide"
     # - title: "StackOverflow"
-    #   url: "https://stackoverflow.com/users/6045122/akinjide-bankole"
+    #   url: "https://stackoverflow.com/users/6045122/akinjide"
     - title: "Email"
       url: "mailto:r@akinjide.me"
 author:
