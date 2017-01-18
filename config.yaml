@@ -21,8 +21,8 @@ params:
       url: "https://github.com/akinjide"
     - title: "Talks"
       url: "https://speakerdeck.com/akinjide"
-    # - title: "StackOverflow"
-    #   url: "https://stackoverflow.com/users/6045122/akinjide"
+    - title: "StackOverflow"
+      url: "https://stackoverflow.com/users/6045122/akinjide"
     - title: "Email"
       url: "mailto:r@akinjide.me"
 author:
