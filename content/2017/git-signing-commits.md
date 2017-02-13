@@ -223,6 +223,12 @@ use-standard-socket
 # allowing the GPG key's passphrase to be stored in the login
 # keychain, enabling automatic key signing.
 pinentry-program /usr/local/bin/pinentry-mac
+
+# If you want to adjust how long the agent holds onto your password,
+# adjust the default-cache-ttl setting in ~/.gnupg/gpg-agent.conf.
+# The setting is expressed in seconds, so if you want to type your
+# password once per day, set it to 86400.
+default-cache-ttl 86400
 ```
 
 ###### .bash_profile / .zshrc
