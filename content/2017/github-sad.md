@@ -20,7 +20,7 @@ Github navigation bar is now black, only when signed in. Previously, navigation 
 ![Screen Shot 2017-02-13 13 54 31][]
 
 
-It’s been available already to enterprise users for some time, apparently, but it's now here to stay, I think, and it's going to take some getting used to. Previous navigation bar (white) makes sense for a couple reasons:
+It’s been available already to enterprise users for some time. Apparently, it's now here to stay, and I think it's going to take some getting used to. Previous navigation bar (white) makes sense for a couple reasons:
 
 - The logo feels natural when the cat is dark and the surrounding is light. It has appeared this way on Github's products.
 
