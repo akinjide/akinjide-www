@@ -9,7 +9,7 @@ title: Github :(
 ---
 
 
-![Dark Github][]
+![Grim Octocat][]
 
 
 Yesterday I came across this [Github][] changes, and it immediately struck a chord with me. If you haven’t seen it already, I’ll sum it up for you here.
@@ -30,7 +30,7 @@ It’s been available already to enterprise users for some time. Apparently, it'
 
 I feel sad, but i'm looking forward to hearing any official word from Github about the change. I noticed that it ended up getting a lot of attention on [Reddit][]. (The Reddit discussion can be found here: [GitHub just changed the upper navbar to black][].)
 
-  [Dark Github]: /static/images/2017/dark-github.jpg "Dark Github"
+  [Grim Octocat]: /static/images/2017/grim-octocat.jpg "Grim Octocat"
   [Github]: https://www.github.com "Github"
   [Screen Shot 2017-02-13 13 54 31]: /static/images/2017/Screen%20Shot%202017-02-13%2013%2054%2031.png "Screen Shot 2017-02-13 13 54 31"
   [Reddit]: https://www.reddit.com "Reddit"
