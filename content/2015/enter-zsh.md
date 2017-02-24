@@ -108,13 +108,13 @@ If you'd like to give zsh a try, here are some resources to get you going. zsh h
 -  [oh my zsh series][], a series of blog posts explaining zsh and oh my zsh in depth. A great read.
 -  [oh my zsh theme][], a simple oh my zsh theme.
 
-  
+
   [Superman Facing Sketch]: /static/images/2015/superman-facing-sketch.jpg "Superman Facing Sketch"
   [Clock Shield Sketch]: /static/images/2015/clock-shield-sketch.jpg "Clock Shield Sketch"
   [Zsh]: http://www.zsh.org/ "Zsh powerful shell scripting"
   [oh my zsh]: http://ohmyz.sh/ "Oh My Zsh is a way of life"
-  [fork]: https://github.com/andela-abankole/dot-zsh "My ZSH dotfiles."
+  [fork]: https://github.com/akinjide/dot-zsh "My ZSH dotfiles."
   [Installation]: https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH "Configuring oh my zsh"
   [zsh wiki]: http://zshwiki.org/home/ "Zsh wiki"
   [oh my zsh series]: https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/ "Become A Command-Line Power User"
-  [oh my zsh theme]: https://github.com/andela-abankole/chi "oh my zsh theme for zsh"
+  [oh my zsh theme]: https://github.com/akinjide/chi "oh my zsh theme for zsh"

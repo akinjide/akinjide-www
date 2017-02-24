@@ -470,5 +470,5 @@ year. I'd highly recommend it to any programmer who does a lot of server side st
   [The main vim website]: http://www.vim.org "The main vim website"
   [vim wiki]: http://www.vim.org/docs.php "vim wiki"
   [vim source]: https://github.com/vim/vim "vim source"
-  [fork]: https://github.com/andela-abankole/dot-vim "Akinjide vim .vimrc"
+  [fork]: https://github.com/akinjide/dot-vim "Akinjide vim .vimrc"
   
