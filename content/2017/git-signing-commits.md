@@ -69,7 +69,7 @@ Download and install the [GPG and GPG command line tools][] for your operating s
 
 ### Generate
 
-Before you generatea a GPG key, check for existing GPG keys.
+Before you generate a GPG key, check for existing GPG keys.
 
 ``` console
 $ gpg -k
@@ -189,7 +189,7 @@ Don't forget to upload your public key to Github!  There needs to be a three-way
 
 If you don’t want to have to enter your passphrase every time you sign a commit, there are a few steps to get that working. Otherwise, you can stop here.
 
-Storing passphrase should be easier on Windows using [GPG4Win][]. On a Mac, the [gpg-agent][] doesn’t automatically integrate with the OSX keychain like ssh-agent but acts similarly in that it caches the keys in memory, providing a socket that Git and GPG use to communicate for key storage/retrieval, it requires more setup, so more work is required. 
+Storing passphrase should be easier on Windows using [GPG4Win][]. On a Mac, the [gpg-agent][] doesn’t automatically integrate with the OSX keychain like ssh-agent but acts similarly in that it caches the keys in memory, providing a socket that Git and GPG use to communicate for key storage/retrieval, it requires more setup, so more work is required.
 
 You'll have to edit: "~/.gnupg/gpg.conf", "~/.gnupg/gpg-agent.conf", and "~/.bash_profile" or "~/.zshrc" -- depending on whether you use **bash** or **zsh**.
 
