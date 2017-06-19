@@ -23,6 +23,8 @@ params:
       url: "https://speakerdeck.com/akinjide"
     - title: "StackOverflow"
       url: "https://stackoverflow.com/users/6045122/akinjide"
+    - title: "Spotify"
+      url: "https://open.spotify.com/user/_akinjide"
     - title: "Email"
       url: "mailto:r@akinjide.me"
 author:
