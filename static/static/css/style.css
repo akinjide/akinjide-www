@@ -243,6 +243,7 @@ article p.read-time.active {
   margin-bottom: 2.5em !important;
   margin-top: 2.5em !important;
   max-width: 100%;
+  pointer-events: none;
 }
 
 .article blockquote,
