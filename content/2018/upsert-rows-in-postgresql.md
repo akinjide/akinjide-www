@@ -156,7 +156,7 @@ That's really all there is to upserting, I'd suggest choosing the new upsert fea
   [Angel Pulling Sketch]: /static/images/2018/angel-pulling-sketch.jpg "Angel Pulling Sketch"
   [PL/pgSQL]: https://www.postgresql.org/docs/current/static/plpgsql-control-structures.html#PLPGSQL-UPSERT-EXAMPLE "PostgreSQL documentation, custom upsert function"
   [custom upsert]: http://stackoverflow.com/a/1109198/535590 "StackOverFlow, Custom Upsert with PL/pgSQL"
-  [transactions and rollback]: https://www.depesz.com/2012/06/10/why-is-upsert-so-complicated/ "-"
+  [transactions and rollback]: https://www.depesz.com/2012/06/10/why-is-upsert-so-complicated/ "Why is Upsert so complicated, Article by depesz"
   [Writeable Common Table Expressions]: https://www.postgresql.org/docs/9.5/static/queries-with.html#QUERIES-WITH-MODIFYING "WITH Queries (Common Table Expressions) documentation"
   [PSQL]: https://www.postgresql.org/docs/9.5/static/app-psql.html "PostgreSQL interactive terminal (psql) documentation"
   [PostgreSQL INSERT]: https://www.postgresql.org/docs/current/static/sql-insert.html "INSERT documentation"
