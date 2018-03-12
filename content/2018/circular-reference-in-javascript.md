@@ -163,8 +163,11 @@ Those are all my thoughts for now. If you’d like to try or use an external lib
 npm install akinjide/is
 ```
 
+**Note: With [GC (Mark-and-sweep algorithm)][], circular references are not a problem anymore.**
+
   [Dark Angel Sketch]: /static/images/2018/dark-angel-sketch.jpg "Dark Angel Sketch"
   [Arrays]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array "Array, JavaScript MDN"
   [JSON.stringify]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify "JSON.stringify(), JavaScript MDN"
   [try...catch]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch "try...catch, JavaScript MDN"
   [is]: https://github.com/akinjide/is "type checking for js."
+  [GC (Mark-and-sweep algorithm)]: https://en.wikipedia.org/wiki/Tracing_garbage_collection#Na.C3.AFve_mark-and-sweep "Garbage Collection Mark-and-sweep algorithm"
