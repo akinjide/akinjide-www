@@ -1,3 +1,9 @@
+body {
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
 /**
  * Navigation bar styling.
  */
@@ -91,7 +97,7 @@ header h2 a:hover {
 }
 
 .index .jumbotron {
-  background-color: #FFFFFF;
+  background-color: transparent;
   text-align: center;
 }
 
@@ -344,4 +350,93 @@ code {
     text-align: center;
     opacity: 0.5
   }
+}
+
+
+/* Switch */
+
+.controls {
+  position: fixed;
+  top: 12px;
+  right: 20px;
+  padding: 18px;
+}
+
+.switch {
+  display: inline-block;
+  position: relative;
+  width: 25px;
+  height: 24px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.switch input {
+  display: none;
+}
+
+.switch > i.mdi {
+  transform: rotate(139deg);
+  position: absolute;
+  cursor: pointer;
+  top: -10px;
+  transition: 0.4s;
+}
+
+
+/* dark */
+
+.dark {
+  background-color: #333333 /* #0C0D0D */ !important;
+  color: #DDDDDD;
+}
+
+.dark .article pre {
+  background-color: #333333/* #0C0D0D */;
+}
+
+.dark nav a,
+.dark nav a:hover,
+.dark nav a:visited,
+.dark header a:visited,
+.dark header h1 a,
+.dark header h2 a,
+.index.dark main li a,
+.index.dark main li a:hover,
+.index.dark main li a:visited,
+.dark .article,
+.dark .article h1,
+.dark .article h2,
+.dark .article h3,
+.dark .article h4,
+.dark .article h5,
+.dark .article h6,
+.dark .article code,
+.dark footer,
+.dark footer p a,
+.dark footer p a:hover,
+.dark footer p a:visited {
+  color: #DDDDDD;
+}
+
+.dark .mailchimp-subscribe button:active,
+.dark .mailchimp-subscribe button:hover,
+.dark .mailchimp-subscribe button:focus {
+  border: 1px solid #DDDDDD;
+}
+
+.dark .mailchimp-subscribe input[type=email]:focus {
+  -webkit-box-shadow: inset 0 -1px 0 #DDDDDD;
+  box-shadow: inset 0 -1px 0 #DDDDDD;
+}
+
+.dark code,
+.dark .article a,
+.dark .article a:link,
+.dark .article a:visited,
+.dark .article a:hover,
+.dark .article a:active,
+.dark .main.intro p a,
+.dark .article p.read-time {
+  color: #FFFF00;
 }
