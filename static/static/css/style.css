@@ -2,6 +2,7 @@ body {
   -webkit-transition: .4s;
   -o-transition: .4s;
   transition: .4s;
+  fill: #666666;
 }
 
 /**
@@ -375,12 +376,11 @@ code {
   display: none;
 }
 
-.switch > i.mdi {
+.switch > svg {
   transform: rotate(139deg);
-  position: absolute;
   cursor: pointer;
-  top: -10px;
   transition: 0.4s;
+  fill: inherit;
 }
 
 
@@ -389,6 +389,7 @@ code {
 .dark {
   background-color: #333333 /* #0C0D0D */ !important;
   color: #DDDDDD;
+  fill: #DDDDDD;
 }
 
 .dark .article pre {
