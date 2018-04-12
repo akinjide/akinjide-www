@@ -18,7 +18,7 @@ Being a Developer in Residence was far different than anything I've done before,
 
 Saying that being a Developer in Residence is different than being a programmer would be an understatement. As a programmer, my days are pretty standardized. I typically wake up, grab food, and then spend the rest of the day focusing on building a feature, fixing a bug, or handling some combination of both.
 
-As a Developer in Residence, each day was different. I would wake up early (around 5am local time as my team/partner is based in Nigeria), pick from available project tasks and work my full developer day from home, then head out to the HQ office in the afternoon. There I focused on spending time with the partnerships team, getting to know people at the HQ, networking with the technology community, and knocking stuff off my my New York bucket list.
+As a Developer in Residence, each day was different. I would wake up early (around 5am local time as my team/partner is based in Nigeria), pick from available project tasks and work my full developer day from home, then head out to the HQ office in the afternoon. There I focused on spending time with the partnerships team, getting to know people at the HQ, networking with the technology community, and knocking stuff off my New York bucket list.
 
 In short, it's crazy! The days were long but full of variety, new experiences and people. If I had to sum up the Developer in Residence program for any interested Andelan, I'd say it's a lifestyle (and one that you’ll really enjoy!)
 

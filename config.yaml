@@ -13,8 +13,6 @@ params:
   navLinks:
     - title: "Twitter"
       url: "https://twitter.com/_akinjide"
-    - title: "Facebook"
-      url: "https://www.facebook.com/bakinjide"
     - title: "Github"
       url: "https://github.com/akinjide"
     - title: "Talks"
