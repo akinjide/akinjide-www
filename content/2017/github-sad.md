@@ -28,7 +28,7 @@ It’s been available already to enterprise users for some time. Apparently, it'
 
 - The multi-tier navigation system becomes more distinguishable when the top navigation is black and the secondary navigations underneath are white, since it draws the eyes to the navigation instead of the content.
 
-I feel sad, but i'm looking forward to hearing any official word from Github about the change. I noticed that it ended up getting a lot of attention on [Reddit][]. (The Reddit discussion can be found here: [GitHub just changed the upper navbar to black][].)
+I feel sad, but I'm looking forward to hearing any official word from Github about the change. I noticed that it ended up getting a lot of attention on [Reddit][]. (The Reddit discussion can be found here: [GitHub just changed the upper navbar to black][].)
 
   [Grim Octocat]: /static/images/2017/grim-octocat.jpg "Grim Octocat"
   [Github]: https://www.github.com "Github"

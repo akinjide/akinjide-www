@@ -26,7 +26,7 @@ After meeting great programmers and other people over the past several months, I
 
 Regardless of whatever obstacles and hurdles they have to jump over to make things happen, they take out time to *rest* and focus on their well-being.
 
-So I've decided to make my journey a little more actionable. I'm going to start out simple. Every night i'm going turn off technology and reflect about what I did during the day, whether or not I was satisfied with the quality of both my well-being and work.
+So I've decided to make my journey a little more actionable. I'm going to start out simple. Every night I'm going turn off technology and reflect about what I did during the day, whether or not I was satisfied with the quality of both my well-being and work.
 
 By bringing a focus on quality into my daily routine and consciously thinking about it each day, I hope I'll remind myself to focus on my well-being alongside work.
 

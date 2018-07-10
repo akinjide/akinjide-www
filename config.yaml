@@ -11,8 +11,6 @@ params:
   googleAnalyticsTrackingId: "UA-64387772-2"
   googleSiteVerification: "oJ8GUTtaWVuFvJXZ3L-MkR24avH0dMUNE8WsrtiS33w"
   navLinks:
-    - title: "Twitter"
-      url: "https://twitter.com/_akinjide"
     - title: "Github"
       url: "https://github.com/akinjide"
     - title: "Talks"
