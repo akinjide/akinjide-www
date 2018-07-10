@@ -1,7 +1,7 @@
 ---
 aliases:
   - /goodbye/
-date: "2018-07-07"
+date: "2018-07-10"
 description: "Twitter connects but does it uphold integrity, saying Goodbye"
 slug: "goodbye"
 tags: ["personal development"]
@@ -46,7 +46,7 @@ On December 2017, the Library changed it's tweets collection strategy to acquire
 
 Twitter processes more than 50 million tweets every day, with the total numbering in the billions, I honestly feel every Twitter user should be occasionally notified when using Twitter about Tweet Preservation and/or allow users opt-out.
 
-Since I got on Twitter, I’ve met tons of experts in my field (Programming). I’ve had some expert mentor me, learned, written and spoken about all sorts of things. I even ended up helping some followers level up on core Programming concepts. Although I’ve learned a ton and had a LOT of fun using Twitter, I’ve been slowly getting tired of 140 characters, and now reading about Tweet Preservation. I realized it's time to move on.
+Since I got on Twitter, I’ve met tons of experts in my field (Programming). I’ve had some expert mentor me, learned, written and spoken about all sorts of things. I even ended up helping some followers level up on core Programming concepts. Although I’ve learned a ton and had a LOT of fun using Twitter, I’ve been slowly getting tired of 140 characters and now reading about Tweet Preservation I realize it's time to move on.
 
 
 ![Screen Shot 2018-07-04 1 55 35][]
