@@ -5,6 +5,8 @@
   {{ .Hugo.Generator }}
   <meta content="{{ .Site.Params.googleSiteVerification }}" name="google-site-verification">
   <meta content="{{ .Site.Author }}" name="author">
+  <meta content="noimageindex" name="robots">
+  <meta content="noimageindex" name="googlebot">
   <meta content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" name="description">
   <title>{{ .Site.Title }} - {{ if ne .Title "" }}{{ .Title }}{{ else }}{{ .Site.Params.subtitle }}{{ end }}</title>
   <link href="{{ .RSSLink }}" rel="alternate" title="RSS Feed" type="application/rss+xml">
