@@ -131,6 +131,18 @@ header h2 a:hover {
   color: #515050;
 }
 
+.index main p {
+ padding-top: 1em;
+ font-size: 16px !important;
+}
+
+.index main p a,
+.index main p a:hover,
+.index main p a:visited {
+  text-decoration: underline;
+  color: #b10000;
+}
+
 .index main time {
   color: #BEBEBE;
   font-weight: normal;
@@ -432,6 +444,9 @@ code {
 }
 
 .dark code,
+.index.dark main p a,
+.index.dark main p a:hover,
+.index.dark main p a:visited,
 .dark .article a,
 .dark .article a:link,
 .dark .article a:visited,
@@ -440,4 +455,9 @@ code {
 .dark .main.intro p a,
 .dark .article p.read-time {
   color: #FFFF00;
+}
+
+.dark li code
+.dark p code {
+  background-color: #000000;
 }
