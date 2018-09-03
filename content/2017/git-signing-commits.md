@@ -12,11 +12,11 @@ title: "Git: Signing Commits"
 ![Four Symbols Seal Sketch][]
 
 
-A few weeks back I associated my GPG key with Git and my Github account, this enabled me to sign commits which I'm really enjoying. I thought it would be cool to reflect on this, get you started, and share my experience signing commits.
+A few weeks back I associated my GPG key with Git and my GitHub account, this enabled me to sign commits which I'm really enjoying. I thought it would be cool to reflect on this, get you started, and share my experience signing commits.
 
 However, setting it up can be confusing. In this article, I’ll cover how to set up auto signing commits with GPG and verifying those signatures on GitHub.
 
-Git is cryptographically secure, but it’s not foolproof. When you're building software with people from around the world, it's important you validate and verify that commits are actually from a trusted or identified source, Git has a few ways to sign and verify your work using GPG, and Github will show you when commits are signed.
+Git is cryptographically secure, but it’s not foolproof. When you're building software with people from around the world, it's important you validate and verify that commits are actually from a trusted or identified source, Git has a few ways to sign and verify your work using GPG, and GitHub will show you when commits are signed.
 
 
 ![Screen Shot 2016-12-31 14 25 02][]
@@ -91,7 +91,7 @@ $ gpg --gen-key
 - Use **4096** as your key size but there are options for others.
 - Use the default selection (indicating key doesn't expire) when selecting the length of time the key should be valid.
 - After verifying your selections are correct.
-- Use your email address for Github account when prompted for user ID information.
+- Use your email address for GitHub account when prompted for user ID information.
 - Type a secure passphrase, make the password as long as possible, but something you'll not forget as there's no way to recover it if forgotten (Consider making a backup copy of your private key).
 - Copy your pub key by using the email you provided earlier.
 
@@ -106,7 +106,7 @@ $ gpg --export --armor youremail@example.com > pubkey.asc
 
 The relationship between private and public key is actually very simple. Anything encrypted using the public key can only be decrypted with the related private key. Therefore, you'll provide your public key to another person, and they'll provide you with their public key. Anything encrypted to your public key can only be decrypted by you. Anything encrypted to the other person’s public key can only be decrypted by the other person.
 
-The next step is to upload the public key -- **pubkey.asc** you exported earlier to Github. Github supports **RSA**, **EIGamal**, **DSA**, **ECDH**, **ECDSA**, **EdDSA**. If you add a key generated with an unsupported algorithm, you may encounter an error.
+The next step is to upload the public key -- **pubkey.asc** you exported earlier to GitHub. GitHub supports **RSA**, **EIGamal**, **DSA**, **ECDH**, **ECDSA**, **EdDSA**. If you add a key generated with an unsupported algorithm, you may encounter an error.
 
 
 ## Signing Commits
@@ -130,7 +130,7 @@ user: "Akinjide Bankole (Git signing key) <r@akinjide.me>"
 
 ### Adding GPG to Git
 
-To sign all commits, set the options in your global git config. If your committer email matches the email in your GPG key, you're off and running. All your commits will be signed and they'll show up as verified on Github.
+To sign all commits, set the options in your global git config. If your committer email matches the email in your GPG key, you're off and running. All your commits will be signed and they'll show up as verified on GitHub.
 
 To set your GPG signing key in Git, substituting in the GPG key ID you'd like to use. Copy your GPG **sec key** ID.
 
@@ -154,7 +154,7 @@ git config --global gpg.program gpg1
 
 Now Git will use your key by default to sign commits if you want.
 
-**Note**: Command Line Interface (or CLI) n00bs run to Github Desktop apparently it does not support GPG signing. :(
+**Note**: Command Line Interface (or CLI) n00bs run to GitHub Desktop apparently it does not support GPG signing. :(
 
 To see and verify these signatures, there is also a `--show-signature` option to `git log`.
 
@@ -182,7 +182,7 @@ $ git push
 $ git commit --no-gpg-sign -m your commit message
 ```
 
-Don't forget to upload your public key to Github!  There needs to be a three-way match on your email for Github to show the commit as 'verified': The commit email, Github email, & the email associated with the public key.
+Don't forget to upload your public key to GitHub!  There needs to be a three-way match on your email for GitHub to show the commit as 'verified': The commit email, GitHub email, & the email associated with the public key.
 
 
 ### Storing GPG Key passphrase
