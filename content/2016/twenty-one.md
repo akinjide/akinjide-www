@@ -177,5 +177,5 @@ and more.
 Life is about creativity, it's magic, **I'm Akinjide, I'm creative** :)
 
 
-  [Twenty One Sketch]: /static/images/2016/twenty-one-sketch.png "Twenty One Sketch"
+  [Twenty One Sketch]: /static/images/2016/twenty-one-sketch.jpg "Twenty One Sketch"
   [Hulk Stand Ground Sketch]: /static/images/2016/hulk-stand-ground-sketch.jpg "Hulk Stand Ground Sketch"
