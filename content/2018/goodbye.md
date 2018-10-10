@@ -19,7 +19,7 @@ Recently, I found out about [Tweet Preservation][], and how Twitter in April, 20
 On December 2017, the Library changed it's tweets collection strategy to acquire selective tweets under the overall guidance provided in the Library’s Collections Policy Statements and associated documents ([loc.gov/acq/devpol/][]). After further reading, I became unhappy especially reading some unanswered comments on Library of Congress blog posts questioning Tweet Preservation:
 
 
-![Screen Shot 2018-07-08 3 37 03][]
+![Screen Shot 2018-07-08 15 37 03][]
 
 ![Screen Shot 2018-07-07 12 39 16][]
 
@@ -49,7 +49,7 @@ Twitter processes more than 50 million tweets every day, with the total numberin
 Since I got on Twitter, I’ve met tons of experts in my field (Programming). I’ve had some expert mentor me, learned, written and spoken about all sorts of things. I even ended up helping some followers level up on core Programming concepts. Although I’ve learned a ton and had a LOT of fun using Twitter, I’ve been slowly getting tired of 140 characters and now reading about Tweet Preservation I realize it's time to move on.
 
 
-![Screen Shot 2018-07-04 1 55 35][]
+![Screen Shot 2018-07-04 13 55 35][]
 
 
 With that said, I’ve officially deactivated my Twitter account, and will now only be using products like [Hacker News][], [Reddit][] and [Stackoverflow][]. Also, I've referenced below links to blogs, agreement and PDFs addressing Tweet Preservation.
@@ -67,12 +67,12 @@ With that said, I’ve officially deactivated my Twitter account, and will now o
 - Tweet - ["Library to acquire,"][] Apr. 14 2010
 
   [Chibi Gaara Crying Sketch]: /static/images/2018/chibi-gaara-crying-sketch.jpg "Chibi Gaara Crying Sketch"
-  [Screen Shot 2018-07-04 1 55 35]: /static/images/2018/Screen%20Shot%202018-07-04%201%2055%2035.png "Screen Shot 2018-07-04 1 55 35"
+  [Screen Shot 2018-07-04 13 55 35]: /static/images/2018/Screen%20Shot%202018-07-04%2013%2055%2035.png "Screen Shot 2018-07-04 13 55 35"
   [Twitter]: https://twitter.com "Twitter"
   [Library of Congress]: https://loc.gov "Library of Congress"
   [Tweet Preservation]: https://blog.twitter.com/official/en_us/a/2010/tweet-preservation.html "Twitter Blog on Tweet Preservation"
   [loc.gov/acq/devpol/]: https://www.loc.gov/acq/devpol/ "Collections Policy Statements and Overviews"
-  [Screen Shot 2018-07-08 3 37 03]: /static/images/2018/Screen%20Shot%202018-07-08%203%2037%2003.png "Screen Shot 2018-07-08 3 37 03"
+  [Screen Shot 2018-07-08 15 37 03]: /static/images/2018/Screen%20Shot%202018-07-08%2015%2037%2003.png "Screen Shot 2018-07-08 15 37 03"
   [Screen Shot 2018-07-07 12 20 47]: /static/images/2018/Screen%20Shot%202018-07-07%2012%2020%2047.png "Screen Shot 2018-07-07 12 20 47"
   [Screen Shot 2018-07-07 12 22 29]: /static/images/2018/Screen%20Shot%202018-07-07%2012%2022%2029.png "Screen Shot 2018-07-07 12 22 29"
   [Screen Shot 2018-07-07 12 22 54]: /static/images/2018/Screen%20Shot%202018-07-07%2012%2022%2054.png "Screen Shot 2018-07-07 12 22 54"

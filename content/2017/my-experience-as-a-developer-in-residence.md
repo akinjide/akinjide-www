@@ -58,7 +58,7 @@ It’s pretty insane, being in a different culture and meeting new people.
 ## The Challenges
 
 
-**Missing Home**.
+**Missing Home.**
 
 My biggest priorities in life right now are health, friends and family, then work. While in NYC, whenever I would see the NYC skyline, I would think of my family. I loved my time living in a new city, but I still missed my family a lot.
 
