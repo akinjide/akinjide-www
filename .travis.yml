@@ -1,6 +1,6 @@
 language: go
 install:
-- go get -v github.com/spf13/hugo
+- go get -v github.com/gohugoio/hugo
 - npm install -g bower
 - bower install
 - pip install --user awscli
