@@ -2,6 +2,8 @@ baseurl: "https://www.akinjide.me/"
 languageCode: "en-us"
 metaDataFormat: "yaml"
 title: "Akinjide Bankole"
+pygmentsCodeFences: true
+pygmentsStyle: "algol_nu"
 params:
   author: "Akinjide Bankole"
   description: "The personal website of Akinjide Bankole: programmer, speaker and designer."

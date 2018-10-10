@@ -405,7 +405,7 @@ code {
 }
 
 .dark .article pre {
-  background-color: #333333/* #0C0D0D */;
+  background-color: #333333 !important;
 }
 
 .dark nav a,
