@@ -41,8 +41,7 @@ One of the great things about zsh is that it requires almost no configuration to
 
 Below is my `~/.zshrc` file, and is personalized for my own usage, but you can [fork][] and use it however you'd like. As you can see, it's very simple:
 
-```text
-
+```viml
 # Require other configuration files.
 source ~/.zsh/global_aliases
 source ~/.zsh/aliases

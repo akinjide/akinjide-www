@@ -39,14 +39,14 @@ Install the core GPG command line tools, which are intended to be used in a term
 
 ###### Red Hat / CentOS
 
-``` console
+```bash
 $ yum install gnupg
 ```
 
 
 ###### Ubuntu / Debian
 
-``` console
+```bash
 $ apt-get install gnupg
 ```
 
@@ -56,7 +56,7 @@ The easiest way to install the GPG command line tools is to install [Homebrew][]
 
 When that’s complete, install the GPG software package. The last two package will be used for storing the GPG key passphrase in OS X’s keychain.
 
-```
+```bash
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew doctor
 $ brew install gnupg gnupg2 gpg-agent pinentry-mac
@@ -71,7 +71,7 @@ Download and install the [GPG and GPG command line tools][] for your operating s
 
 Before you generate a GPG key, check for existing GPG keys.
 
-``` console
+```bash
 $ gpg -k
 
 /Users/akinjide/.gnupg/pubring.gpg
@@ -83,7 +83,7 @@ sub   4096R/303070EE 2016-08-30
 
 If you don’t have a key installed or you don't want to use any that are available for signing commits, you can generate one with `gpg --gen-key`.
 
-``` console
+```bash
 $ gpg --gen-key
 ```
 
@@ -95,7 +95,7 @@ $ gpg --gen-key
 - Type a secure passphrase, make the password as long as possible, but something you'll not forget as there's no way to recover it if forgotten (Consider making a backup copy of your private key).
 - Copy your pub key by using the email you provided earlier.
 
-``` console
+```bash
 $ gpg --export --armor youremail@example.com > pubkey.asc
 
 # your GPG pub key, should begin with
@@ -115,7 +115,7 @@ In more recent versions of Git (v1.7.9 and above), you can sign individual commi
 
 After you create your commit, provide the passphrase you set up when you generated your GPG key.
 
-``` console
+```bash
 $ git commit -S -m your commit message
 
 # Creates a signed commit
@@ -134,7 +134,7 @@ To sign all commits, set the options in your global git config. If your committe
 
 To set your GPG signing key in Git, substituting in the GPG key ID you'd like to use. Copy your GPG **sec key** ID.
 
-``` console
+```bash
 $ gpg --list-secret-keys --keyid-format LONG
 
 /Users/akinjide/.gnupg/secring.gpg
@@ -146,7 +146,7 @@ ssb   4096R/6018CA62303070EE 2016-08-30
 
 To set all commits for a repository to be signed by default, in Git versions 2.0.0 and above, run `git config commit.gpgsign true`. To set all commits in any local repository on your computer to be signed by default, run `git config --global commit.gpgsign true`.
 
-``` console
+```bash
 git config --global commit.gpgsign true
 git config --global user.signingkey <your-signing-key-sec-id>
 git config --global gpg.program gpg1
@@ -158,7 +158,7 @@ Now Git will use your key by default to sign commits if you want.
 
 To see and verify these signatures, there is also a `--show-signature` option to `git log`.
 
-``` console
+```bash
 $ git log --show-signature -1
 
 commit fd52e21f54bba0a33a32da706aa52bc0155503c2
@@ -171,14 +171,14 @@ Date:   Mon Nov 14 19:49:17 2016 -0700
     signed commit
 ```
 
-``` console
+```bash
 $ git push
 # Push your local commits to the remote repository.
 ```
 
 **Note**: If you’re not interested in signing commits. You can add the `--no-gpg-sign` flag to the git commit command.
 
-``` console
+```bash
 $ git commit --no-gpg-sign -m your commit message
 ```
 
@@ -197,7 +197,7 @@ GPG software configuration is stored in your home directory within the "~/.gnupg
 
 ###### gpg.conf
 
-``` console
+```bash
 $ vim ~/.gnupg/gpg.conf
 
 # Uncomment within config (or add this line)
@@ -212,7 +212,7 @@ batch
 
 ###### gpg-agent.conf
 
-``` console
+```bash
 $ vim ~/.gnupg/gpg-agent.conf
 
 # Enables GPG to find gpg-agent
@@ -235,7 +235,7 @@ default-cache-ttl 86400
 
 Copy your GPG **pub key** ID, before you export **GPGKEY** below.
 
-``` console
+```bash
 $ gpg -k
 
 /Users/akinjide/.gnupg/pubring.gpg
@@ -245,7 +245,7 @@ uid       [ultimate] Akinjide Bankole (Git signing key) <r@akinjide.me>
 sub   4096R/303070EE 2016-08-30
 ```
 
-``` console
+```bash
 $ vim ~/.zshrc
 
 # In order for GPG to find gpg-agent, gpg-agent must be running,
@@ -271,7 +271,7 @@ fi
 
 Open a new shell and check that **GPG_AGENT_INFO** is set
 
-``` console
+```bash
 $ echo $GPG_AGENT_INFO
 
 # /Users/akinjide/.gnupg/your-agent-location

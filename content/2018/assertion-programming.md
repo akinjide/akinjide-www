@@ -23,7 +23,7 @@ What if:
 
 Below an example [Class] Car requires an attributes argument to instantiate:
 
-```
+```javascript
 function Car(attributes) {
   attributes = attributes || this.attributes || {}
 
@@ -55,7 +55,7 @@ test('#Car should not instantiate without required attributes', function(t) {
 })
 ```
 
-```
+```javascript
 Error: .attributes requires owner,brand,type
     at new Car (evalmachine.<anonymous>:9:11)
     at evalmachine.<anonymous>:15:1
@@ -73,7 +73,7 @@ Here, by checking if the argument `attributes` has the required properties while
 
 Asserting within our program, we can check if the property is defined and throw errors if not. Below an example of assertion using Node.js [Assert] module, which provides a simple set of assertion tests that can be used:
 
-```
+```javascript
 var assert = require('assert')
 
 function Car(attributes) {
@@ -99,7 +99,7 @@ console.log(
 ```
 
 
-```
+```javascript
 AssertionError [ERR_ASSERTION]: .year required
     at new Car (evalmachine.<anonymous>:7:3)
     at evalmachine.<anonymous>:13:13
@@ -115,7 +115,7 @@ AssertionError [ERR_ASSERTION]: .year required
 
 We can perform advance assertions and using [process] environment we can disable assert on a production server like below:
 
-```
+```javascript
 function Car(attributes) {
   attributes = attributes || this.attributes || {}
   
@@ -147,7 +147,7 @@ console.log(
 
 Below [NodeRedis][] shows using the assert module for error handling:
 
-```
+```javascript
 client.on('error', function (err) {
   assert(err instanceof Error);
   assert(err instanceof redis.AbortError);
@@ -182,7 +182,7 @@ I'm happy you had a chance to read this article about assertion programming, the
 
 Many programming languages have built-in support for assertions. If your language is missing assertions and you'd like to create an external or internal library, you can start with the snippet below in Node.js:
 
-```
+```javascript
 function Assert(condition, message) {
   if (process.env.NODE_ENV && ['test', 'dev', 'development'].includes(process.env.NODE_ENV)) {
     if (!(condition)) {

@@ -38,7 +38,7 @@ While I still have my personal projects laid out with TODO items, like always, I
 
 Those are all my thoughts for now. I’m sure in a few months I’ll have a lot more. If you'd like to try or use **aboki CLI**?
 
-``` console
+```bash
 $ pip install aboki
 ```
 

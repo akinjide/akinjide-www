@@ -201,7 +201,7 @@ reinstall OS X
 Assuming you're set on doing that, you are definitely on track. To install on top of your 
 current installation, you need to set the "prefix" directory. That's done like this:
 
-```
+```bash
 # Download, compile, and install the latest Vim
 $ hg clone https://bitbucket.org/vim-mirror/vim or git clone https://github.com/vim/vim.git
 
@@ -270,7 +270,7 @@ Vim can be configured also however you'd like, and it requires almost no configu
 Below is my `~/.vimrc` file, and is personalized for my own usage, but you can [fork][] and use it however 
 you'd like. Might look long, but it's very simple:
 
-```text
+```viml
 " Use Vim settings, rather then Vi settings (much better!). This must be
 " first, because it changes other options as a side effect.
 set nocompatible

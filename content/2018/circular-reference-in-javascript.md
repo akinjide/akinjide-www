@@ -18,7 +18,7 @@ Below are examples of direct or indirect, class and closure circular references:
 
 **direct**
 
-```
+```javascript
 var user = {
   first_name: 'Akinjide'
 };
@@ -43,7 +43,7 @@ console.log(x);
 
 **indirect**
 
-```
+```javascript
 var profile = {
   user: user,
   profile_id: 0090323192
@@ -56,7 +56,7 @@ console.log(profile);
 
 **class**
 
-```
+```javascript
 function User(name) {
   this.name = name;
   this.self = this;
@@ -81,7 +81,7 @@ console.log(user.self.self.self.self.name);
 
 **closure**
 
-```
+```javascript
 var foo;
 
 foo = function(arg) {
@@ -99,7 +99,7 @@ Here the function saved in **foo** refers to the `|foo|` variable and implicitly
 
 So, we'll know [Arrays][] are just Objects and prone to circular reference as well.
 
-```
+```javascript
 var arr1 = ['a', 'b'];
 arr1.push(arr1);
 
@@ -121,7 +121,7 @@ console.log(b);
 
 [JSON.stringify][], transforms a JavaScript value to JSON string by traversing values within. If it encounters a circular reference, it'll just throw an error, otherwise continues forever :(
 
-```
+```javascript
 var user = {
   first_name: 'Akinjide'
 };
@@ -159,7 +159,7 @@ This can render the program useless because none of them can return any useful i
 
 Those are all my thoughts for now. If you’d like to try or use an external library to detect circular reference, use [is][]:
 
-```console
+```bash
 npm install akinjide/is
 ```
 
