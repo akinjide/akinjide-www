@@ -46,7 +46,7 @@ probably a rapid way to become uptight, build stress, and lower your morale.
 
 > "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you; know when you find it." - **Steve Jobs**
 
-If you're working on a something you can't stand, it probably isn't worth it to stick around and keep working. There's just not enough time in life to do things you hate, so instead of wasting your time away, just do the things you love.
+If you're working on something you can't stand, it probably isn't worth it to stick around and keep working. There's just not enough time in life to do things you hate, so instead of wasting your time away, just do the things you love.
 
 > "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma -- which is living with the results of other people's thinking. Don't let the noise of other's opinions drown out your own inner voice." - **Steve Jobs**
 
