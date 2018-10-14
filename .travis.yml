@@ -1,6 +1,6 @@
 language: go
 go:
-- "1.11"
+- "1.11.1"
 install:
 - go get -v -u github.com/gohugoio/hugo
 - npm install -g bower
