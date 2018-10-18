@@ -1,0 +1,3 @@
+[submodule "static/static/javascript/lib/sw-toolbox"]
+	path = static/static/javascript/lib/sw-toolbox
+	url = https://github.com/GoogleChrome/sw-toolbox
