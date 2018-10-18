@@ -432,6 +432,11 @@ code {
   color: #DDDDDD;
 }
 
+.dark .article p > code,
+.dark .article li > code{
+  color: #515050;
+}
+
 .dark .mailchimp-subscribe button:active,
 .dark .mailchimp-subscribe button:hover,
 .dark .mailchimp-subscribe button:focus {

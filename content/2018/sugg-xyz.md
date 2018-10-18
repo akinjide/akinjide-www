@@ -1,7 +1,7 @@
 ---
 aliases:
   - /sugg-xyz/
-date: "2018-10-10"
+date: "2018-10-18"
 description: "Thought process behind sugg.xyz, a note project."
 slug: "sugg-xyz"
 tags: ["programming", "personal development"]

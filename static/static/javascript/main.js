@@ -4,27 +4,36 @@ $(function() {
   var origin = window.location.origin
   var $img = $('.index .intro img')
   var $body = $('body')
-
+  var storage = window.localStorage
+  var mode = storage.getItem('mode')
 
   /** Page Theme. */
-  if ((hour >= 4) && (hour <= 16)) day()
-  else night()
+  if (mode) {
+    if (mode == 'dark') night()
+    if (mode != 'dark') day()
+  }
+
+  if (!mode) {
+    if ((hour >= 4) && (hour <= 16)) day()
+    else night()
+  }
 
   function day() {
     $body.removeClass('dark')
     $img.attr('src', origin + '/static/images/akinjide-avatar.png')
+    storage.setItem('mode', 'light')
   }
 
   function night() {
     $body.addClass('dark')
     $img.attr('src', origin + '/static/images/akinjide-avatar-white.png')
+    storage.setItem('mode', 'dark')
   }
 
   $('#toggle').change(function() {
-    if (this.checked) {
-      night()
-      return
-    }
+    if (this.checked && $body.hasClass('dark')) return day()
+    if (!this.checked && !$body.hasClass('dark')) return night()
+    if (this.checked) return night()
 
     day()
   })
@@ -40,4 +49,17 @@ $(function() {
       }, 200)
     }
   })
+
+  /** Service Worker. */
+  if ("serviceWorker" in navigator) {
+    navigator
+      .serviceWorker
+      .register('sw.js')
+      .then((reg) => {
+        console.log("Service Worker Registered :)")
+      })
+      .catch((err) => {
+        console.log("Service Worker Failed to Register :(")
+      })
+  }
 })
