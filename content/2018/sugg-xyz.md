@@ -12,6 +12,8 @@ title: "sugg.xyz"
 ![Screen Shot 2018-10-08 13 30 31]
 
 
+**NOTE: Sugg will be temporarily down due to Firebase Mandatory Upgrade from v2 SDKs.**
+
 [Sugg][] is a colorful simple note application, that allows you to share notes with your friends and families or privately to just that special one :). **Sugg** grew out of curiosity, and desire to draw closer to a slower, simpler way of life while connecting with friends by sharing notes, telling them how I feel about that special moment.
 
 In an era of hectic lifestyles, hi-tech toys, and hi-speed internet, we’ve replaced people and meaningful relationships with work and busyness. I hope my application can help you recapture and reconnect you with what’s important in life; sharing simple, colorful heart warm notes with special ones.
