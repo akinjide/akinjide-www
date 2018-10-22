@@ -55,11 +55,7 @@ $(function() {
     navigator
       .serviceWorker
       .register('sw.js')
-      .then((reg) => {
-        console.log("Service Worker Registered :)")
-      })
-      .catch((err) => {
-        console.log("Service Worker Failed to Register :(")
-      })
+      .then((reg) => console.log(".:)"))
+      .catch((err) => console.log(".:("))
   }
 })
