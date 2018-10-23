@@ -1,7 +1,7 @@
 ---
 aliases:
   - /views/
-date: "2018-10-22"
+date: "2018-10-23"
 description: "Thought process behind sugg.xyz, a note project."
 slug: "views"
 tags: ["personal development"]
