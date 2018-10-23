@@ -2,7 +2,7 @@
 aliases:
   - /views/
 date: "2018-10-23"
-description: "Thought process behind sugg.xyz, a note project."
+description: "I just thought I’d write about this and show how problem-solving can get stuff done efficiently."
 slug: "views"
 tags: ["personal development"]
 title: "Views"
