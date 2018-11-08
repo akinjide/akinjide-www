@@ -6,6 +6,8 @@ $(function() {
   var $body = $('body')
   var storage = window.localStorage
   var mode = storage.getItem('mode')
+  var MAX_WIDTH_DEVICE = 992;
+  var isLessThanDesktop = (window.innerWidth <= MAX_WIDTH_DEVICE);
 
   /** Page Theme. */
   if (mode) {
@@ -54,7 +56,7 @@ $(function() {
   if ("serviceWorker" in navigator) {
     navigator
       .serviceWorker
-      .register('sw.js')
+      .register(origin + '/sw.js')
       .then((reg) => console.log(".:)"))
       .catch((err) => console.log(".:("))
   }
