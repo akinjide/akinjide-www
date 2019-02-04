@@ -118,7 +118,147 @@ Here are some moments I captured:
 
 Being a Developer in Residence gave me the opportunity to learn and grow, exposed me to a new culture and fun people who are now lifelong friends, and was an honest indicator that I really love what I'm doing here at Andela.
 
-And oh yeah, I've made a [list of places I visited and recommend]. Feel free to [shoot me an email][] if you need tips :)
+And oh yeah, if you’re traveling to Manhattan, New York and you’d like to explore fun stuff. I've made a list I recommend:
+
+
+![Manhattan Skyline Sketch][]
+
+
+##### Legend
+
+- **@ Location**
+- **@@ Night Life**
+- **@@@ City to visit when in New York**
+
+---
+| Category      | Places                                            |
+| :------------ |:-------------------------------------------------:|
+| Food          | Cheese Steak                                      |
+|               | Sausages                                          |
+|               | French Toast                                      |
+|               | Tacos                                             |
+|               | Brisket and Baked Beans **@Fatte Sau**            |
+|               | Thai Food **@Lovely Day**                         |
+|               | Pizza **@Robertas**                               |
+|               | Pizza **@Paulee G's in greenpoint**               |
+|               | Pizza **@Grimaldis**                              |
+|               | Chicken and Red Velvet Waffle **@Woodland**       |
+|               | Chicken Sandwich **@Chick-fil-a**                 |
+|               | Shack Burger **@Shake Shack**                     |
+|               | Pancakes **@Clinton Street Baking**               |
+|               | Dim Sum **@Nom Wah Tea Parlour**                  |
+|               | Oxtail Noodle **@Spicy Village**                  |
+|               | Steak **@The Cellar**                             |
+|               | BBQ **@Virgils, Times Square**                    |
+|               | **@Mr Chow**                                      |
+|               | **@Ramen-ya**                                     |
+|               | **@Pok Pok**                                      |
+|               | **@Neko Cafe**                                    |
+|               | **@Kenka**                                        |
+|               | **@Burger King**                                  |
+|&nbsp;         |                                                   |
+| Entertainment | Broadway Show (A Bronx Tale) **@Longacre Theater**|
+|               | Broadway Show (STOMP)                             |
+|               | Times Square                                      |
+|               | Madison Square Garden                             |
+|               | Rockwood Music                                    |
+|               | Harbor Happy Hour Cruise                          |
+|               | Lincoln Center                                    |
+|               | Gotham Archery                                    |
+|               | Apollo Theater                                    |
+|               | Regal Theater                                     |
+|               | New York Aquarium                                 |
+|               | Coney Island                                      |
+|               | The Irish American Pub                            |
+|               | Soft Ball **@Central Park**                       |
+|               | Base Ball **@Yankee Stadium**                     |
+|               | Golf **@Chelsea Piers**                           |
+|               | Soccer **@Red Bull Stadium**                      |
+|               | Painting **@Highline**                            |
+|               | **@@Woodland**                                    |
+|               | **@@Katra**                                       |
+|&nbsp;         |                                                   |
+| Parks         | Central Park                                      |
+|               | Bryant Park                                       |
+|               | High Line                                         |
+|               | Union Square                                      |
+|               | Herald Square                                     |
+|               | Prospect Park                                     |
+|               | Franklin Park                                     |
+|&nbsp;         |                                                   |
+| Architectural | Empire State Building                             |
+|               | Rockefeller Center                                |
+|               | Brooklyn Bridge                                   |
+|               | Grand Central Terminal                            |
+|               | Penn Station                                      |
+|               | Flatiron                                          |
+|               | Wall Street                                       |
+|               | Fifth Avenue                                      |
+|&nbsp;         |                                                   |
+| City / Boroughs | **@@@New Jersey**                               |
+|               | **@@@Philadelphia**                               |
+|               | **@@@Washington D.C.**                            |
+|               | The Bronx                                         |
+|               | Queens                                            |
+|               | Staten Island                                     |
+|               | Brooklyn                                          |
+|&nbsp;         |                                                   |
+| Museums       | Frick Collection                                  |
+|               | American Museum of Natural History                |
+|               | Metropolitan Museum of Art                        |
+|               | The Guggenheim                                    |
+|               | The Whitney                                       |
+|&nbsp;         |                                                   |
+| Tech / Engineering | Thoughtbot                                   |
+|               | Facebook                                          |
+|               | Dots                                              |
+|               | MongoDB                                           |
+|               | New York Times                                    |
+|               | Digital Ocean                                     |
+|               | Google                                            |
+|               | Apple Store / Experience Center                   |
+|               | Microsoft Reactor Space                           |
+|&nbsp;         |                                                   |
+| Monuments / Library | The Oculus                                  |
+|               | Statue of Liberty                                 |
+|               | The National 9/11 Memorial & Museum               |
+|               | New York Public Library                           |
+|               | Governors Island National Monument                |
+|               | Museum of Modern Art                              |
+|               | Museum of Sex                                     |
+|               | Museum of Natural History                         |
+|               | South Street Sea Port                             |
+---
+
+##### Explorers
+
+Below are list of some fams! That explored New York with me.
+
+- Akin Dairo
+- Becca Kahn
+- Charles Ferguson
+- Deepti Arora
+- Evan Johnson
+- Ify Ikpeazu
+- India Love
+- Isaac Itenberg
+- Jeff Kitchen
+- Jensen Fleming
+- Justin Ziegler
+- Kirk Newcombe
+- Lucas Merat
+- Lucy Prom
+- Marie Casabonne
+- Marion Ting
+- Nora Studholme
+- Paul Dariye
+- Ping Del Giudice
+- Rehema Wachira
+- Stefan Klotzbuecher
+- Steve Friedman
+- Wambui Kinya
+
+Feel free to [shoot me an email][] if you need tips :)
 
   [Happy Sketch]: /static/images/2017/happy-sketch.jpg "Happy Sketch"
   [Rehema Wachira]: https://twitter.com/remy_stack "Rehema Wachira' Twitter"
@@ -141,5 +281,5 @@ And oh yeah, I've made a [list of places I visited and recommend]. Feel free to 
   [Moments 16]: /static/images/2017/moments-16.jpg "Akinjide biking around New York University"
   [Moments 17]: /static/images/2017/moments-17.jpg "Akinjide with Justin Ziegler at Rockefeller Center"
   [Moments 18]: /static/images/2017/moments-18.jpg "Akinjide with Marie Casabonne and Rehema Wachira at ThoughtBot, NYC"
-  [list of places I visited and recommend]: https://github.com/akinjide/places/blob/master/cities/new_york.md "A compiled list of places I've visited"
+  [Manhattan Skyline Sketch]: /static/images/2017/manhattan-skyline-sketch.jpg "Manhattan Skyline Sketch"
   [shoot me an email]: mailto:r@akinjide.me "Akinjide Bankole' Email"

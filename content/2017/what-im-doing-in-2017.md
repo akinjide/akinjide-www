@@ -23,7 +23,7 @@ Just yesterday I thought it would be appropriate to do a brain dump of my plans 
 
 This year I’m going to be trying a lot of new things, and want to hold myself accountable. I will be using apps like [Momentum Habit Tracker][] to track my habits.
 
-Other than the below, in more general terms, there are a lot of other things I’d like to do this year (at least, I hope!), but I really want to workon this ones for 2017.
+Other than the below, in more general terms, there are a lot of other things I’d like to do this year (at least, I hope!), but I really want to work on this ones for 2017:
 
 - Spend at least 30 minutes per day working on open source code.
 - Start a new reading habit. By the end of the year I want to be in the habit of reading for at least one hour per day.

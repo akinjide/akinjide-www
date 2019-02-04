@@ -44,7 +44,7 @@ $ pip install aboki
 
   [Uchiha Sasuke in Black Sketch]: /static/images/2017/uchiha-sasuke-in-black-sketch.png "Uchiha Sasuke in Black Sketch"
   [Learn Python the Hard Way]: https://learnpythonthehardway.org "Learn Python the Hard Way"
-  [Why I'm Committing to Python]: {{< relref "2016/why-im-committing-to-python.md" >}} "Why I'm Committing to Python"
+  [Why I'm Committing to Python]: {{< relref "why-im-committing-to-python.md" >}} "Why I'm Committing to Python"
   [Django]: https://www.djangoproject.com "The web framework for perfectionists with deadlines."
   [Flask]: http://flask.pocoo.org "A Python Microframework"
   [AbokiFx]: https://abokifx.com "Your daily exchange rate"
