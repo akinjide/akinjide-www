@@ -12,7 +12,14 @@ title: "sugg.xyz"
 ![Screen Shot 2018-10-08 13 30 31]
 
 
-**NOTE: Sugg will be temporarily down due to Firebase Mandatory Upgrade from v2 SDKs.**
+**UPDATE(s):**
+
+- **18 October 2018:** Sugg will be temporarily down due to Firebase Mandatory Upgrade from v2 SDKs.[^1]
+- **17 December 2018:** Sugg currently offline for maintainance.
+- **5 January 2019:** Sugg Application Logic and Firebase Mandatory Upgrade commences.
+- **14 February 2019:** Sugg Application Logic and Firebase Mandatory Upgrade complete.
+- **15 February 2019:** Deploy Sugg Application to development server for soak test.[^2]
+- **7 March 2019:** Deploy Sugg Application to production server.
 
 [Sugg][] is a colorful simple note application, that allows you to share notes with your friends and families or privately to just that special one :). **Sugg** grew out of curiosity, and desire to draw closer to a slower, simpler way of life while connecting with friends by sharing notes, telling them how I feel about that special moment.
 
@@ -40,7 +47,13 @@ Privacy when doing stuff is essential for me, I want to be able to add a note an
 
 As noted on [Why?]({{< relref "#why" >}}) above, **Sugg** solves those problems. Anyhow, if you share the same opinion as do I, give [sugg.xyz][] a try and [mail me][] if you have any questions? Would be happy to help.
 
+  [^1]: Documentation summarizing [Firebase Authentication: Mandatory Upgrade from v2 SDKs][] and [upgrade your Web / Node.js application][].
+  [^2]: Soak test involves validating application behavior with a typical production load, over a continuous availability period.
+
   [Screen Shot 2018-10-08 13 30 31]: /static/images/2018/Screen%20Shot%202018-10-08%2013%2030%2031.png "Screen Shot 2018-10-08 13 30 31"
   [Sugg]: http://www.sugg.xyz/note/d/-LNbXB765JuPKa3C7SMC?uid=google:100527560885026371643&meta_id=-LNbXBElq5zsLHRg9aYQ&shared=false "Sugg — Thought"
   [sugg.xyz]: http://www.sugg.xyz "Sugg"
   [mail me]: mailto:r@akinjide.me "Akinjide Bankole' Email"
+  [Firebase Authentication: Mandatory Upgrade from v2 SDKs]: https://docs.google.com/document/d/1vpQV8DBQLkIZci7Vh8N4LUHyTkBOsuW5eXE1x8IAqvw/edit "Firebase Authentication: Mandatory Upgrade from v2 SDKs"
+  [upgrade your Web / Node.js application]: https://firebase.google.com/support/guides/firebase-web "upgrade your Web / Node.js application"
+  [Soak test]: https://en.wikipedia.org/wiki/Soak_testing "Soak test"
