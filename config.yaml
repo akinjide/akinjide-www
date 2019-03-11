@@ -1,9 +1,13 @@
-baseurl: "https://www.akinjide.me/"
+baseURL: "https://www.akinjide.me/"
 languageCode: "en-us"
 metaDataFormat: "yaml"
 title: "Akinjide Bankole"
 pygmentsCodeFences: true
 pygmentsStyle: "algol_nu"
+disableKinds:
+  - section
+  - taxonomy
+  - taxonomyTerm
 params:
   author: "Akinjide Bankole"
   description: "The personal website of Akinjide Bankole: programmer, speaker and designer."
@@ -19,10 +23,6 @@ params:
       url: "https://speakerdeck.com/akinjide"
     - title: "StackOverflow"
       url: "https://stackoverflow.com/users/6045122/akinjide"
-    - title: "Hacker News"
-      url: "https://news.ycombinator.com/user?id=akinjide"
-    - title: "Spotify"
-      url: "https://open.spotify.com/user/_akinjide"
     - title: "Email"
       url: "mailto:r@akinjide.me"
 author:
