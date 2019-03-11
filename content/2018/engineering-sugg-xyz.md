@@ -17,7 +17,8 @@ I've been building **Sugg** for quite a while now, and have seen some imaginable
 
 ## Technology Stack
 
-![Tech Stack Logos]
+
+![Sugg Tech Stack Logos]
 
 
 Choosing a technology stack was quite hard than I thought, but eventually, I settled for FAN Stack ([Firebase][] because it offers Realtime Database and Authentication, [Angular.js][] and [Node.js][]).
@@ -28,7 +29,7 @@ Firebase Realtime Database is a cloud-hosted, NoSQL database that stores and syn
 
 In my opinion, Firebase declarative security model is fascinating, especially since anyone can have access to your database credentials but with security rules, only an authenticated user can read and write and at best they'll be affecting only their own data and not the entire database.
 
-Although Firebase supports local cache on devices to serve and store changes when users go offline and synchronize when devices come online, **Sugg** doesn't implement this feature yet. 
+Although Firebase supports local cache on devices to serve and store changes when users go offline and synchronize when devices come online, **Sugg** doesn't implement this feature yet.
 
 **Firebase Authentication**
 
@@ -40,7 +41,7 @@ Angular.js was initially released October 2010 which makes it among the very fir
 
 Although, Google has released several version of Angular 2, 4, 6 as it's successor and the major changes:
 
-- "scope" or controllers to components as its primary architecture. 
+- "scope" or controllers to components as its primary architecture.
 - syntax expression, "[ ]" for property binding, and "( )" for event binding.
 - Microsoft TypeScript language.
 - Modularity, moving core functionality to modules — it's about time.
@@ -61,7 +62,7 @@ As Node.js is designed for building scalable network applications and is asynchr
 
 ### Application Engineering
 
-I'll be using [yaml][] to represent **Sugg** application structure, which uses [Gulp][], [Jade][], [Sass][], and [Angular.js][], and I'll be explaining just the core but you can view the project [on GitHub][] for better understanding.
+I'll be using [yaml][] to represent **Sugg** application structure, which uses [Gulp][], [Jade][], [Sass][], and [Angular.js][]. I'll be explaining just the core but you can view the project [on GitHub][] for better understanding.
 
 ```yaml
 sugg:
@@ -108,7 +109,7 @@ sugg:
 ```
 
 - `bin` core files
-  - `auth.js` for generating API Firebase access token, verifying and authenticating with Firebase server
+  - `auth.js` for generating API Firebase access token, verifying and authenticating with Firebase server.
   - `www` initializes and starts the Node.js server.
 - `config` application wide configuration files
   - `middleware.js` middleware used for every API routes defined.
@@ -123,7 +124,7 @@ sugg:
   - `src` styles, root index and 404, Angular.js controllers, directives, services, filters, and config.
   - `src/app/application.js` requires dependencies, configure client routes and state.
   - `public` gulp generated directory with bundled files and linked dependencies.
-- `worker` scheduled scripts that perform actions like removing deleted account. 
+- `worker` scheduled scripts that perform actions like removing deleted account.
 
 
 ### Database Engineering
@@ -305,7 +306,7 @@ My hope is that my writing here convinces you to take a look at **Sugg** archite
 
   [Owl Sketch]: /static/images/2018/owl-sketch.jpg "Owl Sketch"
   [sugg.xyz]: http://www.sugg.xyz "Sugg"
-  [Tech Stack Logos]: /static/images/2018/tech-stack-logos.jpg "Tech Stack Logos"
+  [Sugg Tech Stack Logos]: /static/images/2018/sugg-tech-stack-logos.jpg "Sugg Tech Stack Logos"
   [Firebase]: https://firebase.google.com "Firebase"
   [Angular.js]: https://angularjs.org "AngularJS — Superheroic JavaScript MVW Framework"
   [Node.js]: https://nodejs.org/en/ "Node.js"
