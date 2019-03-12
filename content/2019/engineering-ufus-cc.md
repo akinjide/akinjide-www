@@ -114,7 +114,7 @@ ufus
 redis:
   ufus:counter
     - 600
-  ufus:url:074cdaad7e3e5ebca755f0ed8437d60e:
+  ufus:url:074cdaade5ef:
     - 8c4oJ
   ufus:hash:8c4oJ:
     - url
@@ -126,7 +126,7 @@ redis:
 ```
 
 - `ufus:counter` stores an integer count value (i.e. `<300>`) of a base58 unique hash.
-- `ufus:url:074cdaad7e3e5ebca755f0ed8437d60e` stores a base58 unique hash value (i.e. `8c4oJ`) and the key suffix `074cdaad7e3e5ebca755f0ed8437d60e` is an md5 representation of the long URL requested to be shortened.
+- `ufus:url:074cdaade5ef` stores a base58 unique hash value (i.e. `8c4oJ`) and the key suffix `074cdaade5ef` is an md5 representation of the long URL requested to be shortened.
 - `ufus:hash:8c4oJ` stores long URL metadata and the key suffix `8c4oJ` is a base58 unique hash, generated encoding **random integer + ufus:counter** current value (i.e. `base58.encode(999 + 300)`).
   - `clicks` stores an integer count value (i.e. `<10>`) of times URL was visited.
   - `url` stores the original URL requested to be shortened.
