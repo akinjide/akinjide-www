@@ -443,6 +443,10 @@ code {
   border: 1px solid #DDDDDD;
 }
 
+.dark .mailchimp-subscribe input[type=email] {
+  color: #FFFFFF;
+}
+
 .dark .mailchimp-subscribe input[type=email]:focus {
   -webkit-box-shadow: inset 0 -1px 0 #DDDDDD;
   box-shadow: inset 0 -1px 0 #DDDDDD;
