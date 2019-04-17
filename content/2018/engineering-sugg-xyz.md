@@ -4,7 +4,9 @@ aliases:
 date: "2018-11-08"
 description: "Thought process behind sugg.xyz, a note project."
 slug: "engineering-sugg-xyz"
-tags: ["programming", "personal development"]
+tags:
+  - "programming"
+  - "personal development"
 title: "Engineering sugg.xyz"
 ---
 

@@ -4,7 +4,8 @@ aliases:
 date: "2017-01-01"
 description: "I'm really glad the new year is here, (time seems to fly, doesn’t it)?"
 slug: "what-im-doing-in-2017"
-tags: ["personal development"]
+tags:
+  - "personal development"
 title: "What I'm Doing in 2017"
 ---
 

@@ -4,7 +4,8 @@ aliases:
 date: "2018-07-10"
 description: "Twitter connects but does it uphold integrity, saying Goodbye"
 slug: "goodbye"
-tags: ["personal development"]
+tags:
+  - "personal development"
 title: Goodbye
 ---
 

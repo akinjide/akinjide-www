@@ -4,7 +4,9 @@ aliases:
 date: "2017-06-10"
 description: "PostgreSQL has a really useful extension which allows cross-database queries."
 slug: "cross-database-querying-in-postgresql"
-tags: ["programming", "personal development"]
+tags:
+  - "programming"
+  - "personal development"
 title: "Cross Database Querying in PostgreSQL"
 ---
 

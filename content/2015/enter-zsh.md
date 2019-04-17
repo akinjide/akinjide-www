@@ -6,7 +6,7 @@ description: "As a programmer, I work from my terminal most of the time, sounds 
 slug: "enter-zsh"
 tags:
   - "programming"
-  - "development"
+  - "personal development"
   - "terminal"
 title: Enter ZSH
 ---

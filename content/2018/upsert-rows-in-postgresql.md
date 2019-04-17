@@ -4,7 +4,9 @@ aliases:
 date: "2018-02-01"
 description: "PostgreSQL 9.5 and beyond, now provides a better way to upsert data."
 slug: "upsert-rows-in-postgresql"
-tags: ["programming", "personal development"]
+tags:
+  - "programming"
+  - "personal development"
 title: "Upsert Rows in PostgreSQL"
 ---
 

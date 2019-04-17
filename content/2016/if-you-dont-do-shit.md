@@ -4,7 +4,8 @@ aliases:
 date: "2016-11-30"
 description: "When you tell everyone that you are something, you are someone, they expect to see some proof. You gotta get up and fucking do something!"
 slug: "if-you-dont-do-shit"
-tags: ["personal development"]
+tags:
+  - "personal development"
 title: If You Don't Do Shit
 ---
 
@@ -28,7 +29,7 @@ Sometimes you’ve got to listen to the voice in your head that tells you to jus
 
 When you tell everyone that you are something, you are someone, they expect to see some proof. Nobody will listen to me, if I didn’t spend hours every day hammering out my keyboard, working on my blog and communicating with my readers. It’s the work that makes people sit up and take notice, not your bio or your introduction. If you want anyone to take you seriously, you have to earn their respect, it isn't just handed out; You have to earn it. You earn it by doing things that matter, and working on projects that matter and putting in the effort every single day. It’s the only way to earn it.
 
-You know that deep down, even though you’re tired, you’re capable of a lot more. Give yourself some credit. Push your limits. If you’re not struggling to advance, you’re falling into the abyss. When you look at the work instead, and you spend your time trying to make it the best it can be, that’s when you have the chance to make a discovery. To experience your own Eureka moment. 
+You know that deep down, even though you’re tired, you’re capable of a lot more. Give yourself some credit. Push your limits. If you’re not struggling to advance, you’re falling into the abyss. When you look at the work instead, and you spend your time trying to make it the best it can be, that’s when you have the chance to make a discovery. To experience your own Eureka moment.
 The work I do: programming -- writing -- designing -- speaking. But me? I prefer to think of myself as a student, before anything else. I’m here to learn. We all are.
 
 If you want to make it, you’re going to waste your time trying to hit an impossible goal, and quite probably relying on a series of gatekeepers in order to get there. You won’t find happiness down the road, just a series of increasingly tough disappointments. If you want to actually do something, you’re going to find a great deal more satisfaction. There’s so many opportunities to do what you love, when you’re not worried about who you’re trying to be, or what lifestyle you think you should have.

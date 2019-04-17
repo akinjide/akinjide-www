@@ -4,7 +4,9 @@ aliases:
 date: "2018-02-28"
 description: "circular reference, a nightmare?"
 slug: "circular-reference-in-javascript"
-tags: ["programming", "personal development"]
+tags:
+  - "programming"
+  - "personal development"
 title: "Circular Reference in JavaScript"
 ---
 
@@ -12,7 +14,7 @@ title: "Circular Reference in JavaScript"
 ![Dark Angel Sketch][]
 
 
-Circular reference is a series of references where an object references itself directly or indirectly through a series of objects, resulting in a closed loop, appearing in most computer programming including JavaScript. 
+Circular reference is a series of references where an object references itself directly or indirectly through a series of objects, resulting in a closed loop, appearing in most computer programming including JavaScript.
 
 Below are examples of direct or indirect, class and closure circular references:
 
@@ -153,7 +155,7 @@ TypeError: Converting circular structure to JSON
 
 ## Thoughts
 
-Circular reference represents a big problem in computing and can happen in a production application when one piece of code requires result from another and the referenced code needs result from the original code. 
+Circular reference represents a big problem in computing and can happen in a production application when one piece of code requires result from another and the referenced code needs result from the original code.
 
 This can render the program useless because none of them can return any useful information whatsoever, or might introduce small obscure memory leaks lurking around in random places, especially in older versions of JavaScript engines.
 

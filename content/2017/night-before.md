@@ -4,7 +4,8 @@ aliases:
 date: "2017-07-20"
 description: "Some quick thoughts about life and doing stuff you love."
 slug: "night-before"
-tags: ["personal development"]
+tags:
+  - "personal development"
 title: "Night Before"
 ---
 

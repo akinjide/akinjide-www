@@ -4,8 +4,9 @@ aliases:
 date: "2019-03-11"
 description: "Thought process behind ufus.cc, a URL shortener."
 slug: "engineering-ufus-cc"
-tags: ["programming", "personal development"]
-draft: false
+tags:
+  - "programming"
+  - "personal development"
 title: "Engineering ufus.cc"
 ---
 
@@ -107,6 +108,7 @@ ufus
 - `views`
   - `error.ejs` client application error page.
   - `index.ejs` client application landing page.
+
 
 ### In Memory Engineering
 

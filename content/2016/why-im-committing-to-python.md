@@ -4,7 +4,9 @@ aliases:
 date: "2016-09-21"
 description: "I'm committing to Python because not only is it awesome, but it's a great way to improve my OOP chops. It's a language for one's soul."
 slug: "why-im-committing-to-python"
-tags: ["programming", "python"]
+tags:
+  - "programming"
+  - "personal development"
 title: "Why I'm Committing to Python"
 ---
 
@@ -21,7 +23,7 @@ If you aren't familiar with Node (why are you even reading this?), it's a server
 ![Sasuke Surprised Sketch][]
 
 
-**Fun.** 
+**Fun.**
 
 Fun is a great motivator, and since Python was designed to be easy to understand and fun to use (its name came from `Monty Python`). Thus, it has gained popularity for being a beginner-friendly language, and it has replaced Java as the most popular introductory language at Top U.S. Universities.
 

@@ -4,7 +4,8 @@ aliases:
 date: "2017-04-15"
 description: "My best attempt at explaining what I actually did, and how I got locked out of my Apple iCloud account."
 slug: "locked-away"
-tags: ["personal development"]
+tags:
+  - "personal development"
 title: Locked Away
 ---
 

@@ -4,7 +4,8 @@ aliases:
 date: "2017-02-13"
 description: "Some quick thoughts about how Github changes makes me feel. :("
 slug: "github-sad"
-tags: ["programming"]
+tags:
+  - "programming"
 title: GitHub :(
 ---
 

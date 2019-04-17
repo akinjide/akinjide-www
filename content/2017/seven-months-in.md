@@ -4,7 +4,9 @@ aliases:
 date: "2017-05-04"
 description: "A quick reflection on my journey so far learning Python."
 slug: "seven-months-in"
-tags: ["programming", "personal development"]
+tags:
+  - "programming"
+  - "personal development"
 title: Seven Months In
 ---
 

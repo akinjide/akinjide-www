@@ -4,7 +4,9 @@ aliases:
 date: "2018-09-16"
 description: "What if assertions can be written just like every line of code you write?"
 slug: "assertion-programming"
-tags: ["programming", "personal development"]
+tags:
+  - "programming"
+  - "personal development"
 title: "Assertion Programming"
 ---
 
@@ -118,7 +120,7 @@ We can perform advance assertions and using [process] environment we can disable
 ```javascript
 function Car(attributes) {
   attributes = attributes || this.attributes || {}
-  
+
   if (process.env.NODE_ENV != 'production') {
     // required
     assert(typeof attributes == 'object', '.attributes is object only')

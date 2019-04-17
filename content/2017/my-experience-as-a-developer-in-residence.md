@@ -4,7 +4,9 @@ aliases:
 date: "2017-10-20"
 description: "Being a Developer in Residence gave me the opportunity to learn and grow."
 slug: "my-experience-as-a-developer-in-residence"
-tags: ["personal development", "travel"]
+tags:
+  - "travel"
+  - "personal development"
 title: "My Experience as a Developer in Residence"
 ---
 

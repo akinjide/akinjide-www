@@ -4,7 +4,8 @@ aliases:
 date: "2018-04-18"
 description: "Thoughts on forming an unbroken aggressive learning; without interruption"
 slug: "continuous-aggressive-learning"
-tags: ["personal development"]
+tags:
+  - "personal development"
 title: "Continuous Aggressive Learning"
 ---
 

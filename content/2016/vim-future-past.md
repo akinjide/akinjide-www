@@ -4,7 +4,9 @@ aliases:
 date: "2016-08-03"
 description: "A little rant about Vim, Bram Moolenaar et al.  Vim is awesome, learn why."
 slug: "vim-future-past"
-tags: ["terminal", "devops"]
+tags:
+  - "terminal"
+  - "devops"
 title: "Vim -- Future Past"
 ---
 
@@ -18,7 +20,7 @@ Writing software can be a pretty draining work. It is insanely fun when you’re
 
 Programmers spend most of their time looking at the development environment, so it is natural that we want something pretty as well as functional. Certainly, there are a lot of things professionals consider when selecting tools for their work. This is true for every profession, including software development. Quite often, however, selection is based on personal taste, not something easily tangible.
 
-A great programmer could write her code into Notepad and still deliver great stuff. 
+A great programmer could write her code into Notepad and still deliver great stuff.
 
 What are the things a programmer should evaluate when choosing a set of programming tools like a programming editor of choice? The answer to this question is not as simple as it might sound. Software development is close to an art, and there are quite few “fuzzy” factors that separate a masterpiece from an overpriced collectable.
 
@@ -27,7 +29,7 @@ In my personal experience, I’ve found that my programming ability is directly 
 
 ## What Makes Good Code Editor?
 
-Whether you’re a programmer or a writer, a good text editor is a must-have on any computer, 
+Whether you’re a programmer or a writer, a good text editor is a must-have on any computer,
 in any operating system. The humble text editor is great for managing code, writing down quick notes, or just as a distraction-free writing tool.
 
 In today’s development environment, a steep learning curve is a liability, regardless of feature set. Time is always valuable, so a good editor should be easy to get used to. Ideally, the programmer should be able to start work immediately, without having to jump through too many hoops.
@@ -62,10 +64,10 @@ Text editors are simpler applications. Compared to IDEs, they usually correspond
 ![JetBrains Icon][]
 
 
-[JetBrains][] Offers a family of IDEs for Java, Ruby, Python and PHP; all based on the same core engine. 
-Very capable in its own right, JetBrains IDEs have been gaining a growing following. 
+[JetBrains][] Offers a family of IDEs for Java, Ruby, Python and PHP; all based on the same core engine.
+Very capable in its own right, JetBrains IDEs have been gaining a growing following.
 
-However, they are not free, but you'd get community editions for free, and ultimate version for a 30-day trial is available, and 
+However, they are not free, but you'd get community editions for free, and ultimate version for a 30-day trial is available, and
 pricing is reasonable.
 
 
@@ -76,38 +78,38 @@ pricing is reasonable.
 
 Over one year, I have gone through quite a number of editors, below are my thoughts about them:
 
-[Vi/Vim][] a powerful terminal-based editor. Designed to bring simplicity of Vi to every platform and 
+[Vi/Vim][] a powerful terminal-based editor. Designed to bring simplicity of Vi to every platform and
 programmer who need a configurable but not too-heavy editor, it comes standard with most *NIX OS.
 
-Having Vim skills will make your life much simpler when operating through SSH, and you won't have 
-problems with speed once you get familiar with keystrokes and commands. It supports dozens of languages, 
-keeps a history of your actions so you can easily repeat or undo them, supports macro recording, 
+Having Vim skills will make your life much simpler when operating through SSH, and you won't have
+problems with speed once you get familiar with keystrokes and commands. It supports dozens of languages,
+keeps a history of your actions so you can easily repeat or undo them, supports macro recording,
 automatically recognizes file types, and lives -- once installed—at your command line.
 
-The learning curve is still quite steep (although its extensive help is useful for beginners), also its 
-free (GPL licensed) meaning instead of paying for the app, the team behind it suggests you donate to 
+The learning curve is still quite steep (although its extensive help is useful for beginners), also its
+free (GPL licensed) meaning instead of paying for the app, the team behind it suggests you donate to
 children in Uganda who could use the support via the ICCF.
 
-[Sublime Text][] is a truly Cross-platform and feature packed text editor. It is closed source, so it can't 
-be modified at low level. It offers a minimal and straightforward UI, such as a scaled down display code 
-on the right of the UI, allowing users to quickly scroll through their code and navigate with relative ease. 
+[Sublime Text][] is a truly Cross-platform and feature packed text editor. It is closed source, so it can't
+be modified at low level. It offers a minimal and straightforward UI, such as a scaled down display code
+on the right of the UI, allowing users to quickly scroll through their code and navigate with relative ease.
 
-It is distributed as evaluation software (meaning it’s free to try, but there’s no time limit on how long you can use it for free) 
+It is distributed as evaluation software (meaning it’s free to try, but there’s no time limit on how long you can use it for free)
 and a full license will cost you $70.
 
-[Atom][] an Open Source project that can easily be hacked to suit your needs. While it is still a work in progress, its a very capable editor with a vibrant community of programmers 
-keen on new extensions, JavaScript libraries and more. It’s built by the team at GitHub, and incorporates some of the lessons the 
-team there learned by managing so much code on a regular basis. It’s flexible, customizable, 
+[Atom][] an Open Source project that can easily be hacked to suit your needs. While it is still a work in progress, its a very capable editor with a vibrant community of programmers
+keen on new extensions, JavaScript libraries and more. It’s built by the team at GitHub, and incorporates some of the lessons the
+team there learned by managing so much code on a regular basis. It’s flexible, customizable,
 themeable, and even though it’s relatively new, it already has a large following and tons of plugins, thanks to its open API.
 
-Its downsides include some UI quirks, the possibility that some add-on packages could misbehave, 
-and reported performance issues when working with (very) big files. But the project is under active development, 
+Its downsides include some UI quirks, the possibility that some add-on packages could misbehave,
+and reported performance issues when working with (very) big files. But the project is under active development,
 and current shortcomings are likely to be improved.
 
 [Visual Studio Code][] Another widely used IDE, Visual Studio is very popular among .NET programmers, but has been adapted to many different platforms. We could argue that its monolithic architecture is a rock that will pull it under the water, but it is still one of the most popular platforms among programmers.
 
 
-### My Thoughts and Choice 
+### My Thoughts and Choice
 
 It would be presumptuous to declare just one as the best programming editor among these great tools. And there are quite a few editors I did not even try. There is no one-size-fits-all solution. This is what compelled me to try out a number of different editors.
 
@@ -116,14 +118,14 @@ I'm currently using [Vi/Vim][], but its because it fits my requirements. I have 
 
 ## Vim in Action
 
-A picture is worth a thousand words. I won’t bore you any further, here are some 
+A picture is worth a thousand words. I won’t bore you any further, here are some
 screenies of vim in action.
 
 This first picture is just a simple display of vim with version 7.4 (note the status bar at the bottom):
 
 ![Vim Version 7.4][]
 
-Next, we have a single vim window open, broken into two panes: vertically split. As you can see, this 
+Next, we have a single vim window open, broken into two panes: vertically split. As you can see, this
 makes coding quite convenient and fun.
 
 ![Vim Multiple Panes][]
@@ -139,13 +141,13 @@ Here I just entered vim command mode `:command`, and activated [Ntree][] to list
 
 ## Installation
 
-Console version of vim is built into Mac OS, but it is outdated and not compiled 
- with Ruby and Python support. Vim uses `.vimrc` configuration file to load custom configuration settings; 
- this is incompatible with Vim 7.2. However, there are few rather simple options for 
+Console version of vim is built into Mac OS, but it is outdated and not compiled
+ with Ruby and Python support. Vim uses `.vimrc` configuration file to load custom configuration settings;
+ this is incompatible with Vim 7.2. However, there are few rather simple options for
  updating Vim. :)
 
-[Homebrew][] is every programmer OS X package manager. If you are not familiar with Homebrew, check it 
-out. You can use Homebrew to install MacVim, which includes both a GUI and console version of Vim 7.3 
+[Homebrew][] is every programmer OS X package manager. If you are not familiar with Homebrew, check it
+out. You can use Homebrew to install MacVim, which includes both a GUI and console version of Vim 7.3
 
 ```bash
 $ brew install macvim --override-system-vim
@@ -154,10 +156,10 @@ $ brew install macvim --override-system-vim
 $ brew linkapps
 ```
 
-Using `--override-system-vim` flag will instruct brew to setup the necessary symlinks to replace 
+Using `--override-system-vim` flag will instruct brew to setup the necessary symlinks to replace
 the system console Vim with the version provided by MacVim.
 
-Vim shipped with MacVim might not be good enough, you also have the option to build Vim directly from 
+Vim shipped with MacVim might not be good enough, you also have the option to build Vim directly from
 the source using Homebrew.
 
 ```bash
@@ -175,8 +177,8 @@ $ sudo mv /usr/bin/vim /usr/bin/vim73
 $ which vim
 ```
 
-If you're interested in Vim, but don't want to install Homebrew. You can download and install the 
-[MacVim][] app bundle and setup an alias to point to its version of Vim. 
+If you're interested in Vim, but don't want to install Homebrew. You can download and install the
+[MacVim][] app bundle and setup an alias to point to its version of Vim.
 Assuming you have MacVim installed to `/Applications/`
 
 ```bash
@@ -186,11 +188,11 @@ alias vim='/Applications/MacVim.app/Contents/MacOS/Vim' # or something like that
 
 ## Upgrading to Vim 7.4
 
-It's best to not muck with the Apple installed bits, don't overwrite the buit-in Vim, OS X 
-expects that nothing will ever change in `/usr/bin` unbeknownst to it, so any time you overwrite 
-stuff in there you risk breaking some intricate interdependency. And, Let's say you do break 
-something -- there's no way to "undo" that damage. You will be sad and alone. You may have to 
-reinstall OS X 
+It's best to not muck with the Apple installed bits, don't overwrite the buit-in Vim, OS X
+expects that nothing will ever change in `/usr/bin` unbeknownst to it, so any time you overwrite
+stuff in there you risk breaking some intricate interdependency. And, Let's say you do break
+something -- there's no way to "undo" that damage. You will be sad and alone. You may have to
+reinstall OS X
 
 
 ![Sasuke VS Naruto Battle][]
@@ -198,7 +200,7 @@ reinstall OS X
 
 ### Dark Side
 
-Assuming you're set on doing that, you are definitely on track. To install on top of your 
+Assuming you're set on doing that, you are definitely on track. To install on top of your
 current installation, you need to set the "prefix" directory. That's done like this:
 
 ```bash
@@ -211,13 +213,13 @@ $ make
 $ sudo make install
 ```
 
-You can pass "configure" a few other options too, if you want. Do `./configure --help` 
+You can pass "configure" a few other options too, if you want. Do `./configure --help`
 to see them. I hope you've got a backup before you do it, though, in case something goes wrong....
 
 
 ### The One True Way
 
-The "clean" way is to install in a separate place, and make the new binary higher priority in 
+The "clean" way is to install in a separate place, and make the new binary higher priority in
 the $PATH. Here is how I recommend doing that with config parameters:
 
 ```bash
@@ -256,18 +258,18 @@ MacOS X (unix) version
 
 See how clean this is.
 
-I recommend not to install in `/usr/local/bin` when you want to override binaries in /usr/bin, 
-because by default OS X puts `/usr/bin` higher priority in "$PATH" than `/usr/local/bin`, and 
+I recommend not to install in `/usr/local/bin` when you want to override binaries in /usr/bin,
+because by default OS X puts `/usr/bin` higher priority in "$PATH" than `/usr/local/bin`, and
 screwing with that opens its own can of worms.... So, that's what you SHOULD do.
 
 **NOTE**: This can be done with [Vim 8.0][] as well. You should check it out.
 
 ## Configuration
 
-Vim can be configured also however you'd like, and it requires almost no configuration to be useful. Building a 
+Vim can be configured also however you'd like, and it requires almost no configuration to be useful. Building a
 `.vimrc` file takes time and poking around.
 
-Below is my `~/.vimrc` file, and is personalized for my own usage, but you can [fork][] and use it however 
+Below is my `~/.vimrc` file, and is personalized for my own usage, but you can [fork][] and use it however
 you'd like. Might look long, but it's very simple:
 
 ```viml
@@ -425,7 +427,7 @@ As you can see, I made quite much changes to vim in order for it to be useful to
 ![Walking Away Sketch][]
 
 
-Every programming language, be it Java, C#, PHP, Python, Ruby, JavaScript, and so on, has its own development practices related to project structure, debugging, and deploying. However, one thing they all have in common is writing code. 
+Every programming language, be it Java, C#, PHP, Python, Ruby, JavaScript, and so on, has its own development practices related to project structure, debugging, and deploying. However, one thing they all have in common is writing code.
 
 The next time you're about to dive into some code, take a second or two and analyze what tool it is you're about to use. Vim is insanely fun, but navigating through code is even more fun.
 
@@ -434,8 +436,8 @@ Now get out there and write some code with **vim**!
 
 ## Resources
 
-If you'd like to learn or give vim a try, here are some resources to get you started. Vim has become 
-my favorite and most used tool especially when editing files on servers; started using it late last 
+If you'd like to learn or give vim a try, here are some resources to get you started. Vim has become
+my favorite and most used tool especially when editing files on servers; started using it late last
 year. I'd highly recommend it to any programmer who does a lot of server side stuff.
 
 - [Installation][]
@@ -445,7 +447,7 @@ year. I'd highly recommend it to any programmer who does a lot of server side st
 - `vim tutor` is designed to describe enough of the commands that you will be able to easily use Vim as an all-purpose editor.
 - [vim source][]
 
-  
+
   [Vim Icon]: /static/images/2016/vim-icon.png "Vim Icon"
   [JetBrains Icon]: /static/images/2016/jetbrains-icon.png "JetBrains Icon"
   [Editor Logos]: /static/images/2016/editor-logos.png "Editor Logos"
@@ -471,4 +473,4 @@ year. I'd highly recommend it to any programmer who does a lot of server side st
   [vim wiki]: http://www.vim.org/docs.php "vim wiki"
   [vim source]: https://github.com/vim/vim "vim source"
   [fork]: https://github.com/akinjide/dot-vim "Akinjide vim .vimrc"
-  
+

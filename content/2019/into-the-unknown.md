@@ -4,7 +4,8 @@ aliases:
 date: "2019-02-04"
 description: "Looking back at last year and into the Unknown."
 slug: "into-the-unknown"
-tags: ["personal development"]
+tags:
+  - "personal development"
 title: "Into the Unknown"
 ---
 

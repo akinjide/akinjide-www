@@ -4,7 +4,9 @@ aliases:
 date: "2017-11-19"
 description: "Thoughts on building a happy, and relaxed life to greatly increase productivity."
 slug: "programmer"
-tags: ["personal development", "programming"]
+tags:
+  - "programming"
+  - "personal development"
 title: "Programmer"
 ---
 

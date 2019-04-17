@@ -4,7 +4,9 @@ aliases:
 date: "2017-01-18"
 description: "I really enjoy signing commits -- Here's why?"
 slug: "git-signing-commits"
-tags: ["terminal", "programming"]
+tags:
+  - "programming"
+  - "terminal"
 title: "Git: Signing Commits"
 ---
 

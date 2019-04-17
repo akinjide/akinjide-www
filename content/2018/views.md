@@ -4,7 +4,8 @@ aliases:
 date: "2018-10-23"
 description: "I just thought I’d write about this and show how problem-solving can get stuff done efficiently."
 slug: "views"
-tags: ["personal development"]
+tags:
+  - "personal development"
 title: "Views"
 ---
 
