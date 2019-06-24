@@ -232,34 +232,6 @@ And oh yeah, if you’re traveling to Manhattan, New York and you’d like to ex
 |               | South Street Sea Port                             |
 ---
 
-##### Explorers
-
-Below are list of some fams! That explored New York with me.
-
-- Akin Dairo
-- Becca Kahn
-- Charles Ferguson
-- Deepti Arora
-- Evan Johnson
-- Ify Ikpeazu
-- India Love
-- Isaac Itenberg
-- Jeff Kitchen
-- Jensen Fleming
-- Justin Ziegler
-- Kirk Newcombe
-- Lucas Merat
-- Lucy Prom
-- Marie Casabonne
-- Marion Ting
-- Nora Studholme
-- Paul Dariye
-- Ping Del Giudice
-- Rehema Wachira
-- Stefan Klotzbuecher
-- Steve Friedman
-- Wambui Kinya
-
 Feel free to [shoot me an email][] if you need tips :)
 
   [Happy Sketch]: /static/images/2017/happy-sketch.jpg "Happy Sketch"
