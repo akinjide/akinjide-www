@@ -2,7 +2,7 @@
 aliases:
   - /xml-request-and-response-with-express-js/
 date: "2019-06-20"
-description: ""
+description: "eXtensible Markup Language serialization with Node.js isn't complex but time consuming"
 slug: "xml-request-and-response-with-express-js"
 tags:
   - "programming"
