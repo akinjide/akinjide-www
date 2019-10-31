@@ -19,6 +19,8 @@ params:
   navLinks:
     - title: "Github"
       url: "https://github.com/akinjide"
+    - title: "Gists"
+      url: "https://gist.github.com/akinjide"
     - title: "StackOverflow"
       url: "https://stackoverflow.com/users/6045122/akinjide"
     - title: "Email"
