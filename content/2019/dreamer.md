@@ -13,7 +13,7 @@ title: "Dreamer"
 ![Dreamer Cover Art][]
 
 
-I recently took this hilarious [Creative Type](https://mycreativetype.com) Test, was ranked *DREAMER* and I thought I'd write an article sharing the outcome of the test. Enjoy!
+I recently took this hilarious [Creative Type][] Test, was ranked *DREAMER* and I thought I'd write an article sharing the outcome of the test. Enjoy!
 
 Apparently, it's a creative personality test assessing basic habits — how you think, act and see the world. Answering questions like, "*Updates are ready to install; Restart now or Remind me tomorrow*", gives insight into one's personality. I checked the dictionary for the word, *dreamer* and it seems this test matches about 45% of my personality because I can be idealistic in most situation. Haha.
 
@@ -54,3 +54,4 @@ Your greatest gift is your depth of sensitivity and empathy, which allows you to
 Seek out opportunities to collaborate with INNOVATOR types, who combine your lofty idealism with a focus on pragmatic solutions. The grounding energy of the INNOVATOR can inspire you to apply your imagination to real-world change.
 
   [Dreamer Cover Art]: /static/images/2019/dreamer.png "Dreamer Cover Art"
+  [Creative Type]: https://mycreativetype.com "Creative Type by Adobe Create"
