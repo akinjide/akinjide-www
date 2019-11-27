@@ -21,7 +21,7 @@ Although the task took a while to accomplish, I discovered the program's first i
 
 ## First Iteration
 
-The Below code is not performant but I utilized [Closures and Lexical scoping][] to accomplish the initial program. Even though the code below uses an [Array][], a similar data structure can be used in replace:
+The below code is not performant but I utilized [Closures and Lexical scoping][] to accomplish the initial program. Even though the code below uses an [Array][], a similar data structure can be used in replace:
 
 ```javascript
 function offsetFactory(startWithNumber, count) {
