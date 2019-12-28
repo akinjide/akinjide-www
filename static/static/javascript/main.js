@@ -54,10 +54,33 @@ $(function() {
 
   /** Service Worker. */
   if ("serviceWorker" in navigator) {
+    var installButton = $('.index nav ul span a[title="Akinjide Bankole - Install App"]')
+
     navigator
       .serviceWorker
       .register(origin + '/sw.js')
       .then((reg) => console.log(".:)"))
       .catch((err) => console.log(".:("))
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault()
+      deferredPrompt = e
+
+      $(installButton).parent().show()
+    });
+
+    window.addEventListener('appinstalled', (evt) => {
+      $(installButton).parent().hide()
+    });
+
+    installButton.click((e) => {
+      e.preventDefault()
+      deferredPrompt.prompt()
+      deferredPrompt
+        .userChoice
+        .then((choiceResult) => {
+          deferredPrompt = null
+        })
+    })
   }
 })
