@@ -36,12 +36,11 @@ nav li {
   margin-left: .2em;
 }
 
-nav li:after {
+nav li:nth-child(1n+2):after {
   content: ',';
 }
 
-nav li:last-child:after,
-nav li:first-child:after {
+nav li:last-child:after {
   content: none;
 }
 
