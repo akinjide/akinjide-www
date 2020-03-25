@@ -1,6 +1,7 @@
 <form action="{{ .Site.Params.mailchimpFormAction }}" class="mailchimp-subscribe form-inline" method="post" role="form">
   <div class="form-group">
-    <input class="form-control" type="email" name="EMAIL" placeholder="Email Address" size="20" required>
+    <label class="sr-only" for="email">Email Address</label>
+    <input class="form-control" type="email" id="email" name="EMAIL" placeholder="Email Address" size="20" required>
   </div>
   <button type="submit" class="btn btn-default">Subscribe</button>
 </form>
