@@ -54,7 +54,7 @@ $(function() {
 
   /** Service Worker. */
   if ("serviceWorker" in navigator) {
-    var installButton = $('.index nav ul span a[title="Akinjide Bankole - Install App"]')
+    var installButton = $('.index nav ul li.install-button')
 
     navigator
       .serviceWorker
@@ -66,11 +66,11 @@ $(function() {
       e.preventDefault()
       deferredPrompt = e
 
-      $(installButton).parent().show()
+      $(installButton).css('display', 'inline')
     });
 
     window.addEventListener('appinstalled', (evt) => {
-      $(installButton).parent().hide()
+      $(installButton).hide()
     });
 
     installButton.click((e) => {
