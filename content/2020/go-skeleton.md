@@ -2,7 +2,7 @@
 aliases:
   - /go-skeleton/
 date: "2020-03-30"
-description: ""
+description: "μ-service Go project layout for engineering teams or individual engineers"
 slug: "go-skeleton"
 tags:
   - "programming"
