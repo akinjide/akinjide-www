@@ -27,7 +27,7 @@ Likewise, I've read some friends end of year reviews for both last two years but
 
 I had to constantly manage my time due to switching teams, having to learn new engineering processes and I'm so grateful I was privileged to do meaningful and fulfilling work with the smart folks on my team. I certainly contributed more to open source, read more books (but not as much as I'd like), published few articles and did few travels.
 
-Regarding books, I enjoyed and ingested most books I read while applying to my daily life. Although I wrote some articles in 2018, I'm not entirely proud of my progress all due to managing time between work and personal life. I'm predominantly thankful for my family, safe trips and I’m definitely planning on maximizing the ways I can contribute more to open source.
+Regarding books, I enjoyed and ingested most books I read while applying to my daily life. Although, I wrote some articles in 2018, I'm not entirely proud of my overall progress all due to managing time between work and personal life. I'm predominantly thankful for my family, safe trips and I’m definitely planning on maximizing the ways I can contribute more to open source.
 
 
 ## Regarding 2019 and Beyond
@@ -59,7 +59,7 @@ Habit is a continuous progress so I'll just repeat the same habit from 2017 and 
 - I’m finally at a point where I can do a bit of casual travel, and this year I plan on doing some more.
 - Take some time to look at the things I have and if it’s serving me or if not give it out.
 - Review my personal and professional progress every month, etc. Certain things like this are easily overlooked as time passes, but are things that I’d like to ensure I do so that I can make necessary adjustments to myself when necessary.
-- Save money and pay of debts.
+- Save money and pay off debts.
 - Zero waste lifestyle -- Reduce waste and eat everything in my cupboard before restocking it, basically just valuing the food and understanding its a privilege having that food and minimizing waste.
 - Weighing purchases if it adds value and not letting emotions guide my purchases thereby leading me to make negative choices that won't help my finances.
 - Take time for myself, it can be tough to take that intentional time for oneself. Just get some me time, simplifying my space and mindset, reflecting on the day so far and the next coming up.
