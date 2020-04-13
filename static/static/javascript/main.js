@@ -54,7 +54,7 @@ $(function() {
 
   /** Service Worker. */
   if ("serviceWorker" in navigator) {
-    var installButton = $('.index nav ul li.install-button')
+    var installButton = $('nav ul li.install-button')
 
     navigator
       .serviceWorker

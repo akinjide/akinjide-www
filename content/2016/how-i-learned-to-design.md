@@ -63,7 +63,7 @@ For some non-intensive design relating products, I really enjoy using:
 
 [Corel][] for simple banner or business card designs. They have a simple tooling Interface, competitive pricing, and a 99.99% tutorial out there. It's also a hell of a lot easier.
 
-[Sketch][] for anything that requires UI design. It provides a simple tooling Interface, without the hassle of setting up sizes and all those random stuffs. I also have an amazing introduction to using Sketch you have to [read for yourself][]: **1 for respect.*
+[Sketch][] for anything that requires UI design. It provides a simple tooling Interface, without the hassle of setting up sizes and all those random stuff. I also have an amazing introduction to using Sketch you have to [read for yourself][]: **1 for respect.*
 
 
 ## Have an Intense Desire
@@ -89,9 +89,9 @@ The most important thing, however, is that because I wanted it so bad, it felt e
 
 A lot of people now-a-days seem to be learning design by diving head first into complex design like UI designs. While this may work for some people, it seems pretty damn crazy to me. Not only are UI designs complex and vast (designing a modern website requires a ton of wire-framing, user interaction with each page and other separate skills that take years to mature), but they're frustrating and discouraging for new designers.
 
-I got so much value out of designing small stuffs. Each one was simple enough to be done in several hours (no more), and each one taught me stuff: either a new design tool, exporting designs, or manipulating images. There's no doubt in my mind that I gained a good portion of my design knowledge through designing stuffs, a lot of stuffs by imitating the work of the people I admire take a piece of work they've done, and simply try to recreate it. *Just to be clear I am not talking about stealing someone else's design and passing it off as my own*.
+I got so much value out of designing small stuff. Each one was simple enough to be done in several hours (no more), and each one taught me stuff: either a new design tool, exporting designs, or manipulating images. There's no doubt in my mind that I gained a good portion of my design knowledge through designing stuff, a lot of stuff by imitating the work of the people I admire take a piece of work they've done, and simply try to recreate it. *Just to be clear I am not talking about stealing someone else's design and passing it off as my own*.
 
-The thing is there's nothing wrong with copying someone else's work just for practice, I have done it for years and I continue to do it this day, and obviously I don't put it in my portfolio because it's not my work but through that process I have been able to pickup so many techniques and learn so many new things but it's in this act of creating stuffs that you're gonna be able to pickup and realizing all the small details that make up a great design and all the other things that make up a terrible designs.
+The thing is there's nothing wrong with copying someone else's work just for practice, I have done it for years and I continue to do it this day, and obviously I don't put it in my portfolio because it's not my work but through that process I have been able to pickup so many techniques and learn so many new things but it's in this act of creating stuff that you're gonna be able to pickup and realizing all the small details that make up a great design and all the other things that make up a terrible designs.
 
 
 ## Join an Online Community

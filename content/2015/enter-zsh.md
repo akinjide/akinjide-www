@@ -87,7 +87,7 @@ export NVM_DIR="/Users/akinjide/.nvm"
 
 The changes I made are simple and for my own preferences. Here's what my changes do:
 
--  Load custom configuration files. That means all aliases, environment variables and other random stuffs.
+-  Load custom configuration files. That means all aliases, environment variables and other random stuff.
 -  Set vim as my default editor. `I love vim`, but you can switch to `emacs` or others.
 -  Set default theme for oh my zsh. You can set random to use different theme anytime you start your terminal.
 -  Set plugins you want oh my zsh to load into your terminal.

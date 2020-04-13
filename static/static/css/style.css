@@ -154,14 +154,14 @@ header h2 a:hover {
   float: right;
 }
 
-.index nav ul li.install-button {
+nav ul li.install-button {
   display: none;
   font-size: inherit;
   padding-left: 0;
   padding-right: 0;
 }
 
-.index nav ul li.install-button span {
+nav ul li.install-button span {
   font-size: 1.2em;
   font-weight: 700;
   padding-left: 1em;

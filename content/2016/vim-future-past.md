@@ -412,10 +412,10 @@ let g:neocomplcache_auto_completion_start_length = 3
 The changes I made are much and for my own preferences but don't be dismayed, hack it however you'd like. Here's what my changes do:
 
 - I use ([vundle][]) to manage my plugins.
-- Set general config like line numbers, syntax highlighting and other cool stuffs.
+- Set general config like line numbers, syntax highlighting and other cool stuff.
 - Vim enables file swaps and backups this can be annoying at times, but you can give it a try.
 - Indentation, every programmer needs this.
-- Configure stuffs like line length and line breaks.
+- Configure stuff like line length and line breaks.
 - Auto reloading .vimrc when you reconfigure it.
 - Set plugins configuration that vim will load into your terminal.
 

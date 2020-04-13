@@ -155,7 +155,7 @@ Consciously saving before spending is the best way you can improve yourself; thi
 shapes your spending habits.
 
 You could have a different bank account for saving purpose; do away with Debit cards, Mobile or Web banking. Once you get payments from jobs you've done,
-save at least 35 percent first before spending. If there's any dime left after paying bills and handling other financial stuffs, save it up.
+save at least 35 percent first before spending. If there's any dime left after paying bills and handling other financial stuff, save it up.
 
 The earlier you start saving for the snowy days the better. You can always withdraw when need be.
 

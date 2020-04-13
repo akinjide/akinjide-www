@@ -23,7 +23,7 @@ You can see this behavior in a lot of other areas, with a lot of other people. T
 
 **Not with that attitude!**
 
-You’ve got to get out there and give it your absolute fucking best. Turn off Netflix. Turn off Twitter. All you need to do is get in there and keep fighting. Whatever you do, don’t give in to those feelings. The work itself is important, it’s crucially important. It’s not just something that has to be ticked out in order to justify the way you present yourself, or the way you want to feel. It’s not there to give your lifestyle a reason. The work is everything that matters. You have to make good art. Write good stuffs. Build good shit. If you don’t, if all you’re doing is paying lip service to your own ego, people will notice. The world will notice.
+You’ve got to get out there and give it your absolute fucking best. Turn off Netflix. Turn off Twitter. All you need to do is get in there and keep fighting. Whatever you do, don’t give in to those feelings. The work itself is important, it’s crucially important. It’s not just something that has to be ticked out in order to justify the way you present yourself, or the way you want to feel. It’s not there to give your lifestyle a reason. The work is everything that matters. You have to make good art. Write good stuff. Build good shit. If you don’t, if all you’re doing is paying lip service to your own ego, people will notice. The world will notice.
 
 Sometimes you’ve got to listen to the voice in your head that tells you to just keep going. When you’re feeling down, and there are a million voices telling you to give up -- sometimes you need to listen to the one voice that’s telling you to get out there, and kick some ass.
 

@@ -15,7 +15,7 @@ title: "What I'm Doing in 2017"
 
 Time seems to fly, doesn't it? Well, a new year's here and I've completely changed my opinion about new year's resolutions, I always thought they were silly. However, the thought of starting a new year makes me feel **optimistic** about things to come.
 
-Looking back at last year I focused more on: building myself -- my persona -- learning and using lots of tech stuffs. Some goals were specific enough that I accomplished them, while some were way too vague and didn’t materialize.
+Looking back at last year I focused more on: building myself -- my persona -- learning and using lots of tech stuff. Some goals were specific enough that I accomplished them, while some were way too vague and didn’t materialize.
 
 Just yesterday I thought it would be appropriate to do a brain dump of my plans and ideas for 2017. But I figured out instead of focusing on the outcome (e.g. the goals), I should focus on the process. Over the past year I’ve seen I'm indifferent to habit building so I would be focusing on building habits into my daily routine.
 
