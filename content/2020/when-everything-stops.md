@@ -53,7 +53,7 @@ Yet, there's competition for our attention, we have social media and random obli
 - **Financial Education.** Learning about Stocks, Real Estate and the difference between earned, passive and portfolio income.
 - **Start saving or investing.** If you can save or invest this period, try [RobinHood][], [Cowrywise][], [PiggyVest][] or [Acorns][].
 - **Read a book.** Read about Space, Architecture, Construction, Telecommunication, Relationship, Lifestyle, or Finance.
-- **Get creative on the internet.** Start a business online using [Instagram Business][], offer services like Maths Tutoring for kids staying at home or use [Upwork][] for specialised talent.
+- **Get creative on the internet.** Start a business online using [Instagram Business][], offer services like Maths Tutoring for kids staying at home or use [Upwork][] for specialized talent.
 - **Learn new skills.** [Business][], [Learn to Code][], [Communication][], [Music and Art][] or anything.
 - Picking up a new language using apps like [Duolingo][] which offers free training and exercises that make learning fun.
 - Enrol in an online university program or take an open online course.
