@@ -19,7 +19,7 @@ Not long ago, I was tasked to write a program that generates offsets of any give
 Although the task took a while to accomplish, I discovered the program's first iteration was not performant, therefore I did research on how best to make it more performant and I'd like to share the research and program iterations in this article.
 
 
-## First Iteration
+# First Iteration
 
 The below code is not performant but I utilized [Closures and Lexical scoping][] to accomplish the initial program. Even though the code below uses an [Array][], a similar data structure can be used in replace:
 
@@ -81,22 +81,22 @@ console.log('match: ', fibSequence.filter(filterFn));
 
 `offsetFactory()` has a function declared within, `createOffset()` which creates a local variable *offsets* and a single lexical environment that is shared by the *anonymous inner function*. The inner function defined inside `offsetFactory()` has its own local variables, however, since inner functions have access to variables of outer functions, *offsets* variable declared in the parent function, `offsetFactory()` can be accessed by the *anonymous inner function*.
 
-`createOffset()` accepts 2 parameters, *number* to offset from and *count* indicating how many numbers to generate. The loop uses the *count* parameter and modulus to generate numbers on both left and right of the *number* provided as a parameter and afterward push the initial *number* provided into the result.
+`createOffset()` accepts two parameters, *number* to offset from and *count* indicating how many numbers to generate. The loop uses the *count* parameter and modulus to generate numbers on both left and right of the *number* provided as a parameter and afterward push the initial *number* provided into the result.
 
 The *anonymous inner function* will be invoked as a callback function to any standard method that accepts function as an argument and the *anonymous inner function* accepts 1 parameter, *searchNumber* for filtering through the local variable *offsets* created by the `createOffset()` function. If there's a match during an iteration of local variable *offsets* the *anonymous inner function* returns true otherwise false.
 
 
-### Run the code
+## Run the code
 
 You'll notice *fibSequence* is filtered by `filterFn()`. Although it works as expected, the performance is not good enough. What happens here is every time `filterFn()` is invoked with a new *searchNumber* from *fibSequence*; closure variable, *offsets* is iterated and compared with *searchNumber* until a match is found.
 
 
-### Calculate the cost
+## Calculate the cost
 
 If given **(i.e. offsets = [1..1000])** and **(i.e. fibSequence = [1..2000])**, iterating through *fibSequence* linearly X times and for each M item, iterate over *offsets* linearly N items *:(, sad!*. Giving, `M * N`.
 
 
-## Second Iteration
+# Second Iteration
 
 After discovering this problem, my research revealed the high-cost operation can be reduced by yanking 1 item off the local variable, *offsets* for each *fibSequence* number match. The below code gives insight:
 
@@ -163,19 +163,19 @@ console.log('match: ', fibSequence.filter(filterFn));
 ```
 
 
-### Run the code
+## Run the code
 
 You might not notice that much change but the code above is more performant compared to the previous code. What happens here is every time `filterFn()` is invoked with a new *searchNumber* from *fibSequence*, each local variable, *offsets* number is iterated and compared with *searchNumber* if both match we keep *searchNumber* and remove the matched number from the local variable, *offsets* Array, repeating the same process for each *searchNumber*.
 
 The only problem with this optimized approach is uniqueness, *fibSequence* declaration above contains number `1` at index 1 and 2 and we expect final output to contain `1` twice, but this is not the case 'cause after matching `1` at index 1, the matched number is removed from local variable, *offsets* and that will prevent `1` at index 2 from getting matched.
 
 
-### Calculate the cost
+## Calculate the cost
 
 If given **(i.e. offsets = [1..1000])** and **(i.e. fibSequence = [1..2000])**, iterating through *fibSequence* linearly X times and for each M item, iterate over *offsets* linearly N times - 1, meaning *offsets* reduces by 1 for each iteration *:), Ah! Much better!*. Giving, `M * (N - 1)`.
 
 
-## The Lesson
+# The Lesson
 
 I hope the comparison above gives you insight into writing performant code and increasing program performance whenever possible, :), also note the second iteration above, although, performant expects numbers you're searching through be unique otherwise you'll end up with an incomplete output.
 
