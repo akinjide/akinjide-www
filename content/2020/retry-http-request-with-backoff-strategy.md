@@ -24,7 +24,7 @@ Retrying HTTP Request makes our application more stable and a reliable strategy 
 
 # How?
 
-In some languages or third-party libraries, you can simply retry the HTTP Request using some method and/or configuration which will automatically retry the HTTP Request when an error occurs. But, I will show an example retry logic with [Exponential Backoff][] strategy in JavaScript that will retry HTTP Request after several failed attempts before giving up.
+In some languages or third-party libraries, you can simply retry the HTTP Request using some method and/or configuration which will automatically retry the HTTP Request when an error occurs. But, I'll show an example retry logic with [Exponential Backoff][] strategy in JavaScript that will retry HTTP Request after several failed attempts before giving up.
 
 In-depth explanation immediately after the code below. Read on [Asynchronous][] and [Promises][] in JavaScript, if you don't know about those concepts.
 
@@ -147,7 +147,7 @@ return tryFn();
 
 ## Run the code
 
-Using [Axios](https://github.com/axios/axios), a third-party module that wraps around built-in HTTP Request to handle parsing JSON response, returning a Promise interface, and keeping the code simple.
+Using [Axios][], a third-party module that wraps around built-in HTTP Request to handle parsing JSON response, returning a Promise interface, and keeping the code simple.
 
 ```javascript
 // filename: index.js
@@ -259,6 +259,7 @@ If you want to use this HTTP retry strategy in production I'd suggest using a we
   [Asynchronous]: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous "Asynchronous JavaScript | MDN"
   [Promises]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise "JavaScript | MDN"
   [Recursion in Computer Science]: https://en.wikipedia.org/wiki/Recursion_(computer_science) "Recursion (computer science) - Wikipedia"
+  [Axios]: https://github.com/axios/axios "GitHub - axios/axios"
   [async-retry]: https://github.com/zeit/async-retry "GitHub - zeit/async-retry"
   [axios-retry]: https://github.com/softonic/axios-retry "GitHub - softonic/axios-retry"
   [node-retry]: https://github.com/tim-kos/node-retry "GitHub - tim-kos/node-retry"

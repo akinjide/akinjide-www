@@ -17,12 +17,14 @@ params:
   googleAnalyticsTrackingId: "UA-64387772-2"
   googleSiteVerification: "ZOJ4Y0ndk1sfmlPBrjCnq_lKy9ix0iJaaj_hEKH4nT0"
   navLinks:
-    - title: "Github"
+    - title: "GitHub"
       url: "https://github.com/akinjide"
     - title: "Gists"
       url: "https://gist.github.com/akinjide"
     - title: "StackOverflow"
       url: "https://stackoverflow.com/users/6045122/akinjide"
+    - title: "GPG Key"
+      url: "https://www.akinjide.me/akinjide-pubkey.txt"
     - title: "Email"
       url: "mailto:r@akinjide.me"
 author:
