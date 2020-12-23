@@ -14,6 +14,10 @@ title: "Cross Database Querying in PostgreSQL"
 ![Good And Evil Sketch][]
 
 
+**UPDATE(s):**
+
+- **21 December 2020:** Allowing a non-superuser to perform cross-database querying. [^1] **Peter**, if you ever read this update, thanks for the suggestion.
+
 I’ve been using [PostgreSQL][] for the past few months. I figured I’d take a moment to walk you through setting up your database to enable you take advantage of this cool feature, that you may find interesting (if you’re not already using it).
 
 **NOTE**: I use [Amazon RDS for PostgreSQL][] instances – so these instructions will work for you if you’re using same. However, if you’re not, it might still work but this will depend on your server setup.
@@ -134,6 +138,8 @@ The foreign data wrapper establishes a permanent connection, which could be adva
 Regardless of which method will work best for you, you can now query across your different PostgreSQL databases with ease.
 
 Got any questions? Feel free to [shoot me an email][], would be happy to help.
+
+  [^1]: If you want to create this mapping for a non-superuser, you’ll need to grant the non-superuser access to the foreign server with `(GRANT USAGE ON FOREIGN SERVER <server_connection_name> TO <non-superuser>)`.
 
   [Good And Evil Sketch]: /static/images/2017/good-and-evil-sketch.jpg "Good And Evil Sketch"
   [PostgreSQL]: http://postgresql.org "PostgreSQL Website"

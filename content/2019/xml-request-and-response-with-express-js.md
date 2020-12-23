@@ -336,7 +336,7 @@ app.listen(port);
 console.log(`SERVER: started on port ${port}`);
 ```
 
-Now, suppose you have an XML document that looks something like above, the Express.js server will process the request.
+Now, suppose you have an XML document that looks something like below, the Express.js server will process the request.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>

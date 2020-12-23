@@ -468,7 +468,10 @@ code {
   box-shadow: inset 0 -1px 0 #DDDDDD;
 }
 
-.dark code,
+.dark code {
+  color: #B10000;
+}
+
 .index.dark main p a,
 .index.dark main p a:hover,
 .index.dark main p a:visited,
