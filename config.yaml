@@ -27,8 +27,6 @@ params:
       url: "https://www.akinjide.me/akinjide-pubkey.txt"
     - title: "Email"
       url: "mailto:r@akinjide.me"
-    - title: "Clean up the cloud -- help climate change"
-      url: "https://stackoverflow.blog/2020/11/03/podcast-283-cleaning-up-the-cloud-to-help-fight-climate-change/"
 author:
   name: "Akinjide Bankole"
   email: "r@akinjide.me"
