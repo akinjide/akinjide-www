@@ -30,3 +30,6 @@ params:
 author:
   name: "Akinjide Bankole"
   email: "r@akinjide.me"
+outputFormats:
+  RSS:
+    baseName: "feed"
