@@ -8,6 +8,8 @@ disableKinds:
   - section
   - taxonomy
   - taxonomyTerm
+copyright: "2015, 2016, 2017, 2018, 2019, 2020, 2021"
+rssLimit: 20
 params:
   author: "Akinjide Bankole"
   description: "The personal website of Akinjide Bankole: programmer, speaker and designer."
@@ -27,6 +29,12 @@ params:
       url: "https://www.akinjide.me/akinjide-pubkey.txt"
     - title: "Email"
       url: "mailto:r@akinjide.me"
+    - title: "RSS"
+      url: "https://www.akinjide.me/feed.xml"
+    - title: "Book a Session"
+      url: "https://www.codementor.io/@akinjide?refer=badge"
+    - title: "Buy me a Coffee"
+      url: "https://www.buymeacoffee.com/akinjide"
 author:
   name: "Akinjide Bankole"
   email: "r@akinjide.me"
