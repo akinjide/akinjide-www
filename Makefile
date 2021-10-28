@@ -10,7 +10,7 @@ build:
 develop:
 	rm -rf public
 	bower install
-	hugo server --watch --logFile './server.log'
+	hugo server --buildDrafts --buildFuture --watch --logFile './server.log'
 
 deploy: build
 	aws s3 sync public/ s3://www.akinjide.me --acl public-read --delete

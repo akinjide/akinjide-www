@@ -21,8 +21,6 @@ params:
   navLinks:
     - title: "GitHub"
       url: "https://github.com/akinjide"
-    - title: "Gists"
-      url: "https://gist.github.com/akinjide"
     - title: "StackOverflow"
       url: "https://stackoverflow.com/users/6045122/akinjide"
     - title: "GPG Key"
@@ -31,8 +29,6 @@ params:
       url: "mailto:r@akinjide.me"
     - title: "RSS"
       url: "https://www.akinjide.me/feed.xml"
-    - title: "Book a Session"
-      url: "https://www.codementor.io/@akinjide?refer=badge"
     - title: "Buy me a Coffee"
       url: "https://www.buymeacoffee.com/akinjide"
 author:
