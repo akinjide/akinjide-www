@@ -15,7 +15,6 @@ params:
   description: "The personal website of Akinjide Bankole: programmer, speaker and designer."
   email: "r@akinjide.me"
   subtitle: "I'm just smart and I like to code."
-  mailchimpFormAction: "https://akinjide.us13.list-manage.com/subscribe/post?u=145be832f9f3713fb2544aed2&amp;id=beb6406ab9"
   googleAnalyticsTrackingId: "UA-64387772-2"
   googleSiteVerification: "ZOJ4Y0ndk1sfmlPBrjCnq_lKy9ix0iJaaj_hEKH4nT0"
   navLinks:

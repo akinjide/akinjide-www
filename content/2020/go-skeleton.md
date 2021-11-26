@@ -38,62 +38,62 @@ I'll represent the Go structure using a tree structure, which uses:
   ├── Makefile
   ├── README.md
   ├── cmd
-  │   └── service-go-skeleton
-  │       └── main.go
+  │   └── service-go-skeleton
+  │       └── main.go
   ├── config
-  │   ├── config.go
-  │   ├── default.json
-  │   ├── dev-docker.json
-  │   ├── dev.json
-  │   ├── production-preprod.json
-  │   ├── production.json
-  │   └── staging.json
+  │   ├── config.go
+  │   ├── default.json
+  │   ├── dev-docker.json
+  │   ├── dev.json
+  │   ├── production-preprod.json
+  │   ├── production.json
+  │   └── staging.json
   ├── docker
-  │   ├── Dockerfile
-  │   └── docker-entrypoint.sh
+  │   ├── Dockerfile
+  │   └── docker-entrypoint.sh
   ├── docker-compose.yml
   ├── go.mod
   ├── go.sum
   ├── package-lock.json
   ├── package.json
   ├── pkg
-  │   ├── api
-  │   │   ├── skeleton
-  │   │   │   ├── skeleton.go
-  │   │   │   ├── skeleton_test.go
-  │   │   │   ├── handler.go
-  │   │   │   └── model.go
-  │   │   ├── docs
-  │   │   │   ├── docs.go
-  │   │   │   ├── swagger.json
-  │   │   │   └── swagger.yaml
-  │   │   ├── healthcheck
-  │   │   │   ├── handler.go
-  │   │   │   └── handler_test.go
-  │   │   └── swagger.go
-  │   ├── echo
-  │   │   ├── handlers
-  │   │   │   ├── http_error_handler.go
-  │   │   │   └── router.go
-  │   │   └── validators
-  │   │       └── default_validator.go
-  │   └── services
-  │       ├── analytics
-  │       │   ├── analytics.go
-  │       │   ├── analytics_test.go
-  │       │   └── model.go
-  │       ├── auth
-  │       │   ├── model.go
-  │       │   ├── auth.go
-  │       │   └── auth_test.go
-  │       └── session
-  │           ├── model.go
-  │           ├── session.go
-  │           └── session_test.go
+  │   ├── api
+  │   │   ├── skeleton
+  │   │   │   ├── skeleton.go
+  │   │   │   ├── skeleton_test.go
+  │   │   │   ├── handler.go
+  │   │   │   └── model.go
+  │   │   ├── docs
+  │   │   │   ├── docs.go
+  │   │   │   ├── swagger.json
+  │   │   │   └── swagger.yaml
+  │   │   ├── healthcheck
+  │   │   │   ├── handler.go
+  │   │   │   └── handler_test.go
+  │   │   └── swagger.go
+  │   ├── echo
+  │   │   ├── handlers
+  │   │   │   ├── http_error_handler.go
+  │   │   │   └── router.go
+  │   │   └── validators
+  │   │       └── default_validator.go
+  │   └── services
+  │       ├── analytics
+  │       │   ├── analytics.go
+  │       │   ├── analytics_test.go
+  │       │   └── model.go
+  │       ├── auth
+  │       │   ├── model.go
+  │       │   ├── auth.go
+  │       │   └── auth_test.go
+  │       └── session
+  │           ├── model.go
+  │           ├── session.go
+  │           └── session_test.go
   ├── revive.toml
   ├── scripts
-  │   ├── go-run-watch
-  │   └── go-test-watch
+  │   ├── go-run-watch
+  │   └── go-test-watch
   └── tools
       ├── build.go
       └── tools.go
