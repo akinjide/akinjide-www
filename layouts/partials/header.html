@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" style="margin-top: 6em; margin-bottom: 8em;">
   <div class="row">
     <div class="col-xs-12 hidden-xs hidden-sm">
       <section class="controls">
@@ -9,14 +9,14 @@
       </section>
     </div>
   </div>
+
   <div class="row">
-    <header class="col-xs-offset-1 col-xs-10">
-      <h1><a href="{{ "/" | absURL }}" hreflang="{{ .Site.LanguageCode }}" media="all" title="{{ .Site.Title }} - Home" type="text/html">{{ upper .Site.Title }}</a></h1>
-      <h2 class="hidden-xs"><a href="{{ "/" | absURL }}" hreflang="{{ .Site.LanguageCode }}" media="all" title="{{ .Site.Title }} - Home" type="text/html">{{ .Site.Params.subtitle }}</a></h2>
-      <hr>
-    </header>
-  </div>
-  <div class="row">
-    {{ partial "nav.html" . }}
+    <section class="intro col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+      <header>
+        <img alt="Akinjide Bankole - Avatar" class="img-rounded img-responsive" src="{{ "/static/images/akinjide-avatar.png" | absURL }}">
+        <h3><a href="{{ "/" | absURL }}" hreflang="{{ .Site.LanguageCode }}" media="all" title="{{ .Site.Title }} - Home" type="text/html"><strong>{{ .Site.Title }}</strong></a></h3>
+        {{ partial "nav.html" . }}
+      </header>
+    </section>
   </div>
 </div>

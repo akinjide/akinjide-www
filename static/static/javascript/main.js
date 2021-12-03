@@ -2,7 +2,7 @@ $(function() {
   var terminate
   var hour = (new Date()).getHours()
   var origin = window.location.origin
-  var $img = $('.index .intro img')
+  var $img = $('body .intro img')
   var $body = $('body')
   var storage = window.localStorage
   var mode = storage.getItem('mode')

@@ -10,15 +10,13 @@ body {
  */
 nav {
   font-family: 'Raleway', sans-serif;
-  margin-bottom: 2em;
-  text-align: center;
 }
 
 nav ul {
   list-style-type: none;
   display: inline;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 nav li {
@@ -30,10 +28,7 @@ nav li {
 nav li {
   list-style: none;
   display: inline;
-  padding-left: .5em;
-  padding-right: .5em;
-  margin-right: .2em;
-  margin-left: .2em;
+  margin-right: .8em;
 }
 
 nav li:nth-child(1n+2):after {
@@ -79,12 +74,12 @@ header h2 {
 
 header a:visited,
 header h1 a,
-header h2 a {
+header h2 a,
+header h3 a {
   color: #515050;
 }
 
-header h1 a:hover,
-header h2 a:hover {
+header h3 a:hover {
   color: #BEBEBE;
 }
 
@@ -95,13 +90,8 @@ header h2 a:hover {
   font-family: 'Raleway', sans-serif;
 }
 
-.index .intro img {
-  max-width: 6em; /*10em*/
-}
-
-.index .jumbotron {
-  background-color: transparent;
-  text-align: center;
+body .intro img {
+  max-width: 6em;
 }
 
 .index main {
@@ -164,7 +154,6 @@ nav ul li.install-button {
 nav ul li.install-button span {
   font-size: 1.2em;
   font-weight: 700;
-  padding-left: 1em;
   padding-right: 1em;
 }
 
@@ -232,25 +221,7 @@ nav ul li.install-button span {
   font-weight: 700;
   color: #b10000;
   margin: 4em 0 -2.4em 0;
-  text-align: right;
-  opacity: 0.05;
   -webkit-font-smoothing: antialiased;
-  transition-property: all;
-  transition-duration: 0.5s;
-  -webkit-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
-  -moz-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
-  -ms-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
-  -o-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
-  transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82)
-}
-
-article p.read-time:hover {
-  opacity: 1;
-}
-
-article p.read-time.active {
-  opacity: 1;
-  display: block;
 }
 
 .article blockquote {
