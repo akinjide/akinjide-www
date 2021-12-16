@@ -39,6 +39,10 @@ nav li:last-child:after {
   content: none;
 }
 
+nav li a:hover {
+  text-decoration: underline !important;
+}
+
 nav a,
 nav a:hover,
 nav a:visited {
@@ -57,11 +61,6 @@ header a:visited,
 header a:hover,
 header a:active {
   text-decoration: none;
-}
-
-header h1,
-header h2 {
-  text-align: center;
 }
 
 header h1 {

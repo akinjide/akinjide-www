@@ -3,7 +3,7 @@ languageCode: "en-us"
 metaDataFormat: "yaml"
 title: "Akinjide Bankole"
 pygmentsCodeFences: true
-pygmentsStyle: "algol_nu"
+pygmentsStyle: "bw"
 disableKinds:
   - section
   - taxonomy
