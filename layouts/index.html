@@ -9,7 +9,10 @@
           <ul>
             {{ range .Data.Pages }}
               <time class="visible-xs visible-sm visible-md" datetime="{{ dateFormat "02 Jan 2006" .Date }}">{{ dateFormat "02 Jan 2006" .Date }}</time>
-              <li><a href="{{ .Permalink }}" hreflang="{{ $.Site.LanguageCode }}" media="all" title="{{ .LinkTitle }}" type="text/html">{{ upper .LinkTitle }}</a> <time class="visible-lg" datetime="{{ dateFormat "02 Jan 2006" .Date }}">{{ dateFormat "02 Jan 2006" .Date }}</time></li>
+              <li>
+                <time class="visible-lg" datetime="{{ dateFormat "02 Jan 2006" .Date }}">{{ dateFormat "02 Jan 2006" .Date }}</time>
+                <a href="{{ .Permalink }}" hreflang="{{ $.Site.LanguageCode }}" media="all" title="{{ .LinkTitle }}" type="text/html">{{ upper .LinkTitle }}</a>
+              </li>
             {{ end }}
           </ul>
           <p>

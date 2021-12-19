@@ -141,6 +141,7 @@ body .intro img {
 
 .index main li time {
   float: right;
+  padding-left: .5em;
 }
 
 nav ul li.install-button {
