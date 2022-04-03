@@ -9,7 +9,7 @@ build:
 
 develop:
 	rm -rf public
-	bower install
+	npx bower install
 	hugo server --buildDrafts --buildFuture --watch --logFile './server.log'
 
 deploy: build

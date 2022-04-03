@@ -7,8 +7,12 @@
       <div class="row">
         <main class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
           <article>
-            <p class="read-time" datetime="{{ dateFormat "02 Jan 2006" .Date }}">{{ .ReadingTime }} min read</p>
             <header>
+              <div>
+                <p class="read-meta" datetime="{{ dateFormat "02 Jan 2006" .Date }}">{{ dateFormat "02 Jan 2006" .PublishDate }}</p>
+                <p class="read-meta">• {{ .ReadingTime }} min read</p>
+                <p class="read-meta">• {{ .WordCount }} words</p>
+              </div>
               <h1>{{ .Title }}</h1>
             </header>
             {{ .Content }}

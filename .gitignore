@@ -2,3 +2,5 @@ public
 .DS_Store
 static/static/components
 *.log
+node_modules
+.hugo_build.lock

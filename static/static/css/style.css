@@ -79,7 +79,8 @@ header h3 a {
 }
 
 header h3 a:hover {
-  color: #BEBEBE;
+  /*color: #BEBEBE;*/
+  text-decoration: underline;
 }
 
 /**
@@ -216,12 +217,13 @@ nav ul li.install-button span {
   text-align: justify;
 }
 
-.article p.read-time {
+.article p.read-meta {
   font-size: .8em;
   font-weight: 700;
   color: #b10000;
   margin: 4em 0 -2.4em 0;
   -webkit-font-smoothing: antialiased;
+  display: inline-block;
 }
 
 .article blockquote {
@@ -346,7 +348,7 @@ code {
  * Media Queries styling.
  */
 @media (max-width: 400px) {
-  .article p.read-time {
+  .article p.read-meta {
     text-align: center;
     opacity: 0.5
   }
@@ -401,6 +403,7 @@ code {
 .dark header a:visited,
 .dark header h1 a,
 .dark header h2 a,
+.dark header h3 a,
 .index.dark main li a,
 .index.dark main li a:hover,
 .index.dark main li a:visited,
@@ -452,7 +455,7 @@ code {
 .dark .article a:hover,
 .dark .article a:active,
 .dark .main.intro p a,
-.dark .article p.read-time {
+.dark .article p.read-meta {
   color: #FFFF00;
 }
 
