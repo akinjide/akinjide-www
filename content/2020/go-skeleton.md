@@ -281,7 +281,6 @@ Also, make sure to read these Go code style guidelines and recommendations:
   [package-lock.json]: https://nodejs.dev/the-package-lock-json-file "The package-lock file"
   [package.json]: https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json "What is the file package.json? – Node.js"
   [Amazon ECS]: https://aws.amazon.com/ecs "Amazon ECS - Run containerized applications in production"
-  []: https://github.com/akinjide/go-skeleton "go-skeleton on GitHub"
   [gofmt]: https://golang.org/cmd/gofmt/ "gofmt - The Go Programming Language"
   [vet]: https://golang.org/cmd/vet/ "vet - The Go Programming Language"
   [Go Project Layout]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2 "Go Project Layout"
