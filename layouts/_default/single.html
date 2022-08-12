@@ -2,7 +2,7 @@
 <html lang="en">
   {{ partial "head.html" . }}
   <body>
-    {{ partial "header.html" . }}
+    {{ partial "single-nav.html" . }}
     <div class="container article">
       <div class="row">
         <main class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
@@ -13,7 +13,7 @@
                 <p class="read-meta">• {{ .ReadingTime }} min read</p>
                 <p class="read-meta">• {{ .WordCount }} words</p>
               </div>
-              <h1>{{ .Title }}</h1>
+              <h1 style="margin-top: .5em">{{ .Title }}</h1>
             </header>
             {{ .Content }}
             <section class="subscribe">
@@ -27,6 +27,7 @@
         </main>
       </div>
     </div>
+    {{ partial "single-nav.html" . }}
     {{ partial "footer.html" . }}
     {{ partial "footer-includes.html" . }}
   </body>
