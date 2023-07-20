@@ -5,7 +5,7 @@ docutils==0.12
 futures==3.0.5
 jmespath==0.9.0
 pyasn1==0.1.9
-Pygments==2.7.4
+Pygments==2.15.0
 python-dateutil==2.5.3
 rsa==4.7
 s3transfer==0.0.1
