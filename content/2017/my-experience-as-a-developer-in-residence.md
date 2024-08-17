@@ -8,7 +8,6 @@ tags:
   - "travel"
   - "personal development"
 title: "My Experience as a Developer in Residence"
-draft: true
 ---
 
 
